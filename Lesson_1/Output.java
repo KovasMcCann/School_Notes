@@ -3,7 +3,7 @@
  * This program prints out a message to the console.
  */
 
-class U1_L1_template // The class veriable 
+class Output // The class veriable 
 {
 
 

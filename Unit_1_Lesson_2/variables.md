@@ -1,5 +1,5 @@
 # variables:
-there are different types of variables in java
+There are different types of variables in java.
 
 ## examples
     String: Stores Text defined by double quotes
@@ -15,7 +15,7 @@ there are different types of variables in java
 
 ## printing variables
 
-To print a variable in java you can use the ``+`` character
+To print a variable in java you can use the ``+`` character.
 
 # Casting
 
@@ -28,11 +28,12 @@ There are two ways to cast
 * Narrowing (``double -> float -> long -> int -> char -> short -> byte``)
 
 ## Widening
-Widening is done automaticly and can be done with a ``=``
+Widening is done automaticly and can be done with a ``=``.
 Example:
 ``` 
 double myDouble = myInt 
 ```
 
 ## Narrowing
+Define narrowing
 

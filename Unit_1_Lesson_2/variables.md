@@ -28,17 +28,35 @@ There are two ways to cast
 * Narrowing (``double -> float -> long -> int -> char -> short -> byte``)
 
 ## Widening
-Widening is done automaticly and can be done with a ``=``.
+Widening is done automatically and can be done with a ``=``.
 Example:
-``` 
+```java
 double myDouble = myInt 
 ```
 
 ## Narrowing
-Define narrowing
+Narrowing is when you condense the a data type
+
+```java
+int myInt = (int) myDouble; \\ This will store a Double(9.9) as and int(9)
+```
+
+**Notice** A Double is bigger than a int and therefore needs to be narrowed
 
 ## User Input
 If you  want to have input to a program you can use a **Scanner**(Scanner Class).
 
-To build a Scanner class you need to 
+To build a Scanner class you first need to import the class with ``import java.util.Scanner;``
+
+Then inside your ``main()`` you can add:
+
+```java
+Scanner myObj = new Scanner(System.in);  // Creates a Scanner object
+String userName = myObj.nextLine(); // This reads the user input and stores it as a string
+System.out.println(userName); //This will print the user input that was stored as userName
+```
+
+
+
+
 

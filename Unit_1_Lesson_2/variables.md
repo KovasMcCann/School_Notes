@@ -38,13 +38,13 @@ double myDouble = myInt
 Narrowing is when you condense the a data type
 
 ```java
-int myInt = (int) myDouble; \\ This will store a Double(9.9) as and int(9)
+int myInt = (int) myDouble; \\ This will store a Double(9.9) as an int(9)
 ```
 
 **Notice** A Double is bigger than a int and therefore needs to be narrowed
 
 ## User Input
-If you  want to have input to a program you can use a **Scanner**(Scanner Class).
+If you  want to have input to a program you can use a **Scanner**.
 
 To build a Scanner class you first need to import the class with ``import java.util.Scanner;``
 
@@ -56,6 +56,31 @@ String userName = myObj.nextLine(); // This reads the user input and stores it a
 System.out.println(userName); //This will print the user input that was stored as userName
 ```
 
+## Multi User Input
+
+To get multi user input you can use ```nextLine()`` several time
+EX:
+
+```java
+Scanner Names = new Scanner(System.in); //starts scanner
+System.out.println("Enter 4 Names"); //tells user what to do
+    
+String one = Names.nextLine(); //defines first string to fourth string
+String two = Names.nextLine();
+String three = Names.nextLine();
+String four = Names.nextLine();
+    
+System.out.printf("\n%4$s %2$s %3$s %1$s", one, two, three, four); //using printf() it formats the data nicely
+```
+
+## Formating 
+In the code above the printing function is done with ```System.out.printf("\n%4$s %2$s %3$s %1$s", one, two, three, four);``` 
+
+the ```printf()``` is the like the python ```print(f'')``` equivalent
+
+First the strings need to be stored ```('', Stored strings)```
+
+then the strings can be called with ```%1$s``` 1 being the number of string and s being the data type
 
 
 

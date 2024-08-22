@@ -1,7 +1,7 @@
-# variables:
+# Variables:
 There are different types of variables in java.
 
-## examples
+## Examples
     String: Stores Text defined by double quotes
 
     int: Stores Whole numbers
@@ -13,7 +13,7 @@ There are different types of variables in java.
     boolean: True/False
 
 
-## printing variables
+## Printing Variables
 
 To print a variable in java you can use the ``+`` character.
 
@@ -36,4 +36,9 @@ double myDouble = myInt
 
 ## Narrowing
 Define narrowing
+
+## User Input
+If you  want to have input to a program you can use a **Scanner**(Scanner Class).
+
+To build a Scanner class you need to 
 

@@ -16,7 +16,7 @@
 
 # Input
 
-If you want to store or process user input with different data types you can use diffrent functions
+If you want to store or process user input with different data types you can use different functions
 
 ```java 
 //byte
@@ -44,5 +44,37 @@ boolean x = scan.nextBoolean();
 char x = scan.nextChar();
 ```
 
+# Computations 
+
+Mathematical computations with data types are relatively easy. 
+
+You just put the two numbers of variables you want to together with ``(+,-,*)``
+
+Example
+```java
+int a = 5;
+int b = 2 * a;
+System.Out.println(b) //will return "10"
+```
+
+# MAX_value
+
+The ``Integer.MAX_VALUE`` can assign the maximum value to a variable. 
+
+```java
+int x = Integer.MAX_VALUE;
+x = x + 1; //Output:-2147483648 
+```
+
+Be careful because it will cause an **integer overflow** 
+
+# Read Only
+
+To make a Datatype read only you can use ``final`` before assigning the variable
+
+Example
+```java
+final double pi = 3.14159265;  //this will assign pi to a readonly value of 3.14159265
+```
 
 

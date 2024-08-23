@@ -58,7 +58,7 @@ System.out.println(userName); //This will print the user input that was stored a
 
 ## Multi User Input
 
-To get multi user input you can use ```nextLine()`` several time
+To get multi user input you can use ``nextLine()`` several time
 EX:
 
 ```java

@@ -4,6 +4,5 @@ public class ArithmeticOperators {
         int y = 2; 
         int z = y + x * x;
         System.out.println(z);
-        
     }
 }

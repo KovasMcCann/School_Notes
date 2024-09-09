@@ -14,10 +14,27 @@ When you create(Declare) a Primitive Data Type Java creates a space in memory an
 
 When you create a Class Data Type Java allocates a space in memory called a **reference** a reference only shows were that data is stored. This could help with large data types
 
-### NULL
+## NULL
 
 If you want a data type to be blank you can use NULL to set a class to blank.
 
 ```java
 String a = null;
+```
+
+## Immutable Objects
+
+Immutable Objects are objects whose state cannot be modified after they are created in Java.
+
+This allows for things like:
+
+```java
+
+String name = "Bob";
+
+String Helper = name;
+
+String name = "Rick";
+
+System.out.println(name + Helper); //Will output Bob Rick
 ```

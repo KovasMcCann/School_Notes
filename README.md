@@ -4,7 +4,7 @@
 - **Eric Buhot**  
 - Email: ebuhot@csd99.org
 
-### Office Hours (Room 217) by Appointment ([Sign Up Here](#))
+### Office Hours (Room 217) by Appointment ([Sign Up Here](https://forms.gle/93ahSJJhaWfzbsca9))
 - Monday: No Office Hours      
 - Tuesday: 7:30 - 8:20 AM  
 - Wednesday: 7:30 - 8:20 AM  
@@ -47,7 +47,7 @@ Our AP Computer Science Program partners with the College of Dupage to provide s
 
 COD will send enrollment information towards the end of the first semester. Enrolling in dual credit is optional. If you choose to enroll, your 1st semester APCS grade will transfer to **CIS 1400** (Programming and Logic), and your 2nd semester APCS grade will transfer to **CIS 2571** (Introduction to Java).
 
-For more details, check the COD course syllabi for [CIS 1400](#) and [CIS 2571](#).
+For more details, check the COD course syllabi for [CIS 1400](https://docs.google.com/document/d/17470RXpNpyJXrVj8tS5XUeslnddu0kTxgPKYsY-ul8g/edit?usp=sharing) and [CIS 2571](https://docs.google.com/document/d/1tPQo49l3nnye9gi8NyshuexA_uc4bN7aeOXoc-6I0Wk/edit?usp=sharing).
 
 ---
 

@@ -25,8 +25,8 @@ This definition focuses on the problem-solving aspect of computer science. One m
 ### Course Units
 
 #### Semester 1:
-1. Primitive Types  
-2. Using Objects  
+1. ~~Primitive Types~~
+2. ~~Using Objects~~  
 3. Boolean Expressions and If Statements  
 4. Iteration  
 5. Writing Classes  

@@ -39,6 +39,8 @@ This definition focuses on the problem-solving aspect of computer science. One m
 10. Recursion  
 11. AP Exam Sharpening (Review)
 
+``!! Crossed out if completed !!``
+
 ---
 
 ## Dual Credit Through College of Dupage

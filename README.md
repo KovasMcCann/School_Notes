@@ -63,7 +63,7 @@ For more details, check the COD course syllabi for [CIS 1400](https://docs.googl
 
 ## Grading Methods & Procedures
 
-Grades are posted in the District 99 Home Access Center. Tutorials can be found on the district website ([here](#)).  
+Grades are posted in the District 99 Home Access Center. Tutorials can be found on the district website ([here](https://www.csd99.org/departments/home-access-center)).  
 
 Semester grades are generally not rounded. However, if a student completes all major assignments, seeks extra help, and takes advantage of retake opportunities, the teacher may round grades at their discretion.  
 

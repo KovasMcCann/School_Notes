@@ -1,8 +1,15 @@
 # Constructors
 
-Constructors in java are used to initialize objects
+Constructors are special methods used to initialize new objects. When an object of a class is created, the constructor is called to set initial values for its attributes.
 
-They will be initialized in a class and will change the data in that class.
+Constructors are defined within a class, and their primary role is to initialize the instance variables (data) of that class.
+
+Behavior: Constructors can have different forms:
+
+- **Default Constructor**: Initializes object attributes to default values.
+- **Parameterized** Constructor: Accepts parameters to set specific values for the object at the time of creation
+
+> See [ConstructorExample.java](ConstructorExample.java) for an example.
 
 ## Using Shapes
 

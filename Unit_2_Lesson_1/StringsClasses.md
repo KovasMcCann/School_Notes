@@ -37,8 +37,9 @@ String Helper = name;
 
 String name = "Rick";
 
-System.out.println(name + Helper); //Will output Bob Rick
+System.out.println(name + Helper)
 ```
+> Output: Bob Rick
 
 You can also use ``final`` to state an object can't be changed
 

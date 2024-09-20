@@ -87,4 +87,4 @@ class Money {
 }
 ```
 
-This allows you to keep the imutable strings while not creating any confilicts.
+This allows you to not change the ``amount`` and ``currency`` veriables once there already defined. 

@@ -39,7 +39,7 @@ String name = "Rick";
 
 System.out.println(name + Helper)
 ```
-> Output: Bob Rick
+> Bob Rick
 
 You can also use ``final`` to state an object can't be changed
 
@@ -48,7 +48,7 @@ final String name = "KovasMcCann";
 name = "Kovas...";
 System.out.println(name);
 ```
-> Output: KovasMcCann
+> KovasMcCann
 
 ### Classes 
 

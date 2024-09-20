@@ -131,3 +131,5 @@ If violations occur within a reasonable timeframe:
 In Mr. Buhot’s classroom, cell phones and earbuds must be silenced and stored in backpacks before class begins. The policy for phone use will be indicated on a sign (Red = no phones; Green = permission granted). If students misuse this privilege, they will be asked to put their phone away.
 
 ---
+
+[https://quizlet.com/542406373/ap-computer-science-a-unit-2-quiz-flash-cards/](https://quizlet.com/542406373/ap-computer-science-a-unit-2-quiz-flash-cards/)

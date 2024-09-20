@@ -47,7 +47,7 @@ final String name = "KovasMcCann";
 name = "Kovas...";
 System.out.println(name);
 ```
-> KovasMcCann
+> Output: KovasMcCann
 
 ### Classes 
 

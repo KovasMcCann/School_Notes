@@ -53,3 +53,15 @@ double myMethod(double x, double y)
 ```
 
 > `myMethod()` is overloaded because there are multiple "versions" that have the same name but different parameters.
+
+## `indexOf()` 
+
+The `indexOf()` method returns the position of the first occurrence of specified character(s) in a string.
+
+![image](https://github.com/user-attachments/assets/13387060-03fd-49a6-a330-26b7533384da)
+
+```java
+String myStr = "cat,dog";
+System.out.println(myStr.indexOf("dog"));
+```
+> 4

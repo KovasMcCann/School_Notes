@@ -38,6 +38,8 @@ System.out.println(answer1);
 
 > 64.0
 
+**Keep in mind `a` is the base and `b` is the exponent.**
+
 ## Sqare root
 
 ```java

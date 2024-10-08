@@ -37,3 +37,41 @@ if (x > y) {
 ```
 
 > x is greater than y
+
+## Logical Operators in Java: `&&` and `||`
+
+In Java, `&&` and `||` are logical operators used to combine Boolean expressions:
+
+### `&&` (Logical AND)
+- The `&&` operator returns `true` only if **both** operands are `true`.
+- If either operand is `false`, the result is `false`.
+- Java uses **short-circuit evaluation** with `&&`. This means that if the first operand is `false`, Java will not evaluate the second operand because the overall result is guaranteed to be `false`.
+
+**Example**:
+```java
+boolean a = true;
+boolean b = false;
+
+if (a && b) {
+    System.out.println("Both are true");
+} else {
+    System.out.println("One or both are false");
+}
+```
+
+> One or both are false
+
+### `||` (Logical OR)
+
+```java
+boolean a = true;
+boolean b = false;
+
+if (a || b) {
+    System.out.println("At least one is true");
+} else {
+    System.out.println("Both are false");
+}
+```
+
+> At least one is true

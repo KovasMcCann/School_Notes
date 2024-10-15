@@ -75,3 +75,71 @@ if (a || b) {
 ```
 
 > At least one is true
+
+## `else`
+
+## `else`
+
+The `else` statement in Java is used to specify a block of code to be executed if the condition in the `if` statement is false. It provides an alternative path of execution when the `if` condition is not met.
+
+### Syntax
+
+```java
+if (condition) {
+    // block of code to be executed if the condition is true
+} else {
+    // block of code to be executed if the condition is false
+}
+```
+
+### Example
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        int number = 10;
+
+        if (number > 0) {
+            System.out.println("The number is positive.");
+        } else {
+            System.out.println("The number is not positive.");
+        }
+    }
+}
+```
+
+### Explanation
+
+In the example above:
+- The `if` statement checks if the variable `number` is greater than 0.
+- If the condition is true, it prints "The number is positive."
+- If the condition is false, the `else` block is executed, printing "The number is not positive."
+
+### Using `else if`
+
+You can also use `else if` to check multiple conditions:
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        int number = 0;
+
+        if (number > 0) {
+            System.out.println("The number is positive.");
+        } else if (number < 0) {
+            System.out.println("The number is negative.");
+        } else {
+            System.out.println("The number is zero.");
+        }
+    }
+}
+```
+
+In this example:
+- The `if` statement checks if the variable `number` is greater than 0.
+- If the first condition is false, the `else if` statement checks if `number` is less than 0.
+- If both conditions are false, the `else` block is executed, printing "The number is zero."
+
+### Conclusion
+
+The `else` statement is a fundamental part of control flow in Java, allowing you to execute alternative code when an `if` condition is not met. Combined with `else if`, it provides a powerful way to handle multiple conditions in your programs.

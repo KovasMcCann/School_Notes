@@ -16,29 +16,28 @@ Java supports several logical operators:
 
 ### AND Operator (`&&`)
 
-| A     | B     | A && B          |
-|-------|-------|-----------------|
-| <span style="color: green;">true</span>  | <span style="color: green;">true</span>  | <span style="color: green;">true</span>   |
-| <span style="color: green;">true</span>  | <span style="color: red;">false</span> | <span style="color: red;">false</span>  |
-| <span style="color: red;">false</span> | <span style="color: green;">true</span>  | <span style="color: red;">false</span>  |
-| <span style="color: red;">false</span> | <span style="color: red;">false</span> | <span style="color: red;">false</span>  |
+| A     | B     | A && B |
+|-------|-------|--------|
+| ✅ true  | ✅ true  | ✅ true   |
+| ✅ true  | ❌ false | ❌ false  |
+| ❌ false | ✅ true  | ❌ false  |
+| ❌ false | ❌ false | ❌ false  |
 
 ### OR Operator (`||`)
 
-| A     | B     | A \|\| B        |
-|-------|-------|-----------------|
-| <span style="color: green;">true</span>  | <span style="color: green;">true</span>  | <span style="color: green;">true</span>   |
-| <span style="color: green;">true</span>  | <span style="color: red;">false</span> | <span style="color: green;">true</span>   |
-| <span style="color: red;">false</span> | <span style="color: green;">true</span>  | <span style="color: green;">true</span>   |
-| <span style="color: red;">false</span> | <span style="color: red;">false</span> | <span style="color: red;">false</span>  |
+| A     | B     | A \|\| B |
+|-------|-------|--------|
+| ✅ true  | ✅ true  | ✅ true   |
+| ✅ true  | ❌ false | ✅ true   |
+| ❌ false | ✅ true  | ✅ true   |
+| ❌ false | ❌ false | ❌ false  |
 
 ### NOT Operator (`!`)
 
-| A     | !A               |
-|-------|------------------|
-| <span style="color: green;">true</span>  | <span style="color: red;">false</span> |
-| <span style="color: red;">false</span> | <span style="color: green;">true</span>  |
-
+| A     | !A     |
+|-------|-------|
+| ✅ true  | ❌ false |
+| ❌ false | ✅ true  |
 
 ## Usage in Java
 

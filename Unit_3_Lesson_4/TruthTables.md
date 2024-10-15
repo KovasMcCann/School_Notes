@@ -16,28 +16,29 @@ Java supports several logical operators:
 
 ### AND Operator (`&&`)
 
-| A     | B     | A && B |
-|-------|-------|--------|
-| true  | true  | true   |
-| true  | false | false  |
-| false | true  | false  |
-| false | false | false  |
+| A     | B     | A && B          |
+|-------|-------|-----------------|
+| <span style="color: green;">true</span>  | <span style="color: green;">true</span>  | <span style="color: green;">true</span>   |
+| <span style="color: green;">true</span>  | <span style="color: red;">false</span> | <span style="color: red;">false</span>  |
+| <span style="color: red;">false</span> | <span style="color: green;">true</span>  | <span style="color: red;">false</span>  |
+| <span style="color: red;">false</span> | <span style="color: red;">false</span> | <span style="color: red;">false</span>  |
 
 ### OR Operator (`||`)
 
-| A     | B     | A \|\| B |
-|-------|-------|--------|
-| true  | true  | true   |
-| true  | false | true   |
-| false | true  | true   |
-| false | false | false  |
+| A     | B     | A \|\| B        |
+|-------|-------|-----------------|
+| <span style="color: green;">true</span>  | <span style="color: green;">true</span>  | <span style="color: green;">true</span>   |
+| <span style="color: green;">true</span>  | <span style="color: red;">false</span> | <span style="color: green;">true</span>   |
+| <span style="color: red;">false</span> | <span style="color: green;">true</span>  | <span style="color: green;">true</span>   |
+| <span style="color: red;">false</span> | <span style="color: red;">false</span> | <span style="color: red;">false</span>  |
 
 ### NOT Operator (`!`)
 
-| A     | !A    |
-|-------|-------|
-| true  | false |
-| false | true  |
+| A     | !A               |
+|-------|------------------|
+| <span style="color: green;">true</span>  | <span style="color: red;">false</span> |
+| <span style="color: red;">false</span> | <span style="color: green;">true</span>  |
+
 
 ## Usage in Java
 

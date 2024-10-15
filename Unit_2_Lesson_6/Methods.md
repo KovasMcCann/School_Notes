@@ -15,7 +15,19 @@ System.out.println(c);
 >
 > circle with radius 17.5
 
-Above is two examples of calling methods.
+Above are two examples of calling methods.
+
+### What does this do?
+
+```ascii
+Circle c = new Circle();
+^     ^     ^       ^
+|     |     |       |
+|     |     |       +--- 4. Call the Constructor
+|     |     +----------- 3. new is used to create an object
+|     +----------------- 2. Variable
++----------------------- 1. Call the Class
+```
 
 ## Void
 

@@ -25,7 +25,7 @@ Java supports several logical operators:
 
 ### OR Operator (`||`)
 
-| A     | B     | A || B |
+| A     | B     | A \|\| B |
 |-------|-------|--------|
 | true  | true  | true   |
 | true  | false | true   |

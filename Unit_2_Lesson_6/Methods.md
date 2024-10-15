@@ -25,7 +25,7 @@ Circle c = new Circle();
 |     |     |       |
 |     |     |       +--- 4. Call the Constructor
 |     |     +----------- 3. new is used to create an object
-|     +----------------- 2. Variable
+|     +----------------- 2. Variable Name
 +----------------------- 1. Call the Class
 ```
 

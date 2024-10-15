@@ -53,3 +53,9 @@ public class TruthTableExample {
     }
 }
 ```
+
+> false
+>
+> true
+>
+> false

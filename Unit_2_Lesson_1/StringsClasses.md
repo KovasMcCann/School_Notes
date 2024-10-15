@@ -93,7 +93,7 @@ public class Bank {
 > Balance of checkingAccount2: 50.0
 
 
-Most Objects created from classes ``are not imputable`` and will be changed. 
+Most Objects created from classes ``are not imputable`` and will be changed because they ``call the same object``. 
 To provent this you can use the methods below.
 
 ```java

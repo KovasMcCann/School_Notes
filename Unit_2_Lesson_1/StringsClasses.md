@@ -52,7 +52,7 @@ System.out.println(name);
 
 ### Classes 
 
-```
+```java
 public class Bank {
     private double balance;
 

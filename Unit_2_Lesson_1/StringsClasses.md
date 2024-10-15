@@ -52,6 +52,50 @@ System.out.println(name);
 
 ### Classes 
 
+```
+public class Bank {
+    private double balance;
+
+    // Constructor initializes the balance to 100 dollars
+    public Bank() {
+        this.balance = 100.0;
+    }
+
+    // Method to withdraw 50 dollars from the balance
+    public void withdrawMoney() {
+        this.balance -= 50.0;
+    }
+
+    // Method to get the current balance
+    public double getBalance() {
+        return this.balance;
+    }
+
+    public static void main(String[] args) {
+        // Create a new Bank object for checkingAccount1
+        Bank checkingAccount1 = new Bank();
+
+        // Assign checkingAccount2 to the same object as checkingAccount1
+        Bank checkingAccount2 = checkingAccount1;
+
+        // Call withdrawMoney on checkingAccount1
+        checkingAccount1.withdrawMoney();
+
+        // Display the balance of both accounts
+        System.out.println("Balance of checkingAccount1: " + checkingAccount1.getBalance());
+        System.out.println("Balance of checkingAccount2: " + checkingAccount2.getBalance());
+    }
+}
+```
+
+> Balance of checkingAccount1: 50.0
+>
+> Balance of checkingAccount2: 50.0
+
+
+Most Objects created from classes ``are not imputable`` and will be changed. 
+To provent this you can use the methods below.
+
 ```java
 class Money {
     private final double amount;

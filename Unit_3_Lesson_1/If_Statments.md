@@ -78,8 +78,6 @@ if (a || b) {
 
 ## `else`
 
-## `else`
-
 The `else` statement in Java is used to specify a block of code to be executed if the condition in the `if` statement is false. It provides an alternative path of execution when the `if` condition is not met.
 
 ### Syntax

@@ -35,7 +35,7 @@ Consider the following declaration
 
 Which of the following best describes the situation?
 
-> `newBlock` is an object fo the Lego class type
+> `newBlock` is an object for the Lego class type
 
 ### Explanation
 

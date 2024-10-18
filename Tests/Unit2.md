@@ -279,7 +279,7 @@ Suppose a method has a return type of `Double`, the name `firstMethod` and a par
 
 ### Explanation
 
-**!!!NEED TO MAKE!!!**
+The reason return type: `int`, name: `firstMethod`, parameter list: `int num, String word` is the correct answer is becuase the signature of the string isn't affected by **output** but by the **input and name**.
 
 ## Question 14
 

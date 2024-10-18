@@ -214,7 +214,7 @@ System.out.println(b + a);
 
 This is pretty simple just keep in mind strings are immutable
 
-## Question 10 (GO BACK)
+## Question 10
 
 Which of the following is a call to a static method?
 

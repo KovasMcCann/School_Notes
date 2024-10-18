@@ -67,7 +67,7 @@ Which of the following is used to indicate a new comment?
 
 ## Question 3
 
-Assume that Back is a class that creates a checking account object. By default, the money stored wil be 100 dollars. Also assume that withdrawMoney() is a void method that will update the balance by subtracting 50 dollars to the current money stored.
+Assume that Bank is a class that creates a checking account object. By default, the money stored wil be 100 dollars. Also assume that withdrawMoney() is a void method that will update the balance by subtracting 50 dollars to the current money stored.
 
 ```java
 Bank checkingAccount1 = new Bank();

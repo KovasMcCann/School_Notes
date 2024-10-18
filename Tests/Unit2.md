@@ -388,18 +388,6 @@ System.out.println(language2.indexOf(language1.substring(1,4)));
 
 First `language1.substring()` takes the letters from `java` and cuts them to `ava`. Then `language2.indexOf()` finds where `ava` and `javascript` match. Which would be `1`
 
-```java
-String: "java"
--------------------
-Index:  0  1  2  3
-         j  a  v  a
-
-String: "javascript"
-------------------------
-Index:  0  1  2  3  4  5  6  7  8  9
-         j  a  v  a  s  c  r  i  p  t
-```
-
 #### `substring()`
 
 ```java

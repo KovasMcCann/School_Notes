@@ -35,7 +35,7 @@ Consider the following declaration
 
 Which of the following best describes the situation?
 
-> newBlock is an object fo the Lego class type
+> `newBlock` is an object fo the Lego class type
 
 ### Explanation
 
@@ -48,6 +48,7 @@ Circle c = new Circle();
 |     +----------------- 2. Variable Name
 +----------------------- 1. Call the Class
 ```
+
 ---
 
 ## Question 2
@@ -60,11 +61,13 @@ Which of the following is used to indicate a new comment?
 - [ ] `\'`
 - [ ] `\n`
 
-> This is pretty self explanatory
+### Explanation
+
+> This is pretty self explanatory just remember what `//` does.
 
 ## Question 3
 
-Assume that Back is a class that creates a checking account object. By default, the money stored wil be 100 dollars. Also assume that withdrawMoney() is a void method that will update the balance by subtracting 50 dollars toi the current money stored.
+Assume that Back is a class that creates a checking account object. By default, the money stored wil be 100 dollars. Also assume that withdrawMoney() is a void method that will update the balance by subtracting 50 dollars to the current money stored.
 
 ```java
 Bank checkingAccount1 = new Bank();
@@ -80,6 +83,14 @@ What is true about checkingAccount1 and checkingAccount2
 ### Explanation
 
 This is because typical Class Types are **mutable** and will be changed because they point at the same **memory location** where the `checkingAccount1()` is stored.
+
+#### Mutable Objects
+
+Think of **Mutable Objects** as variables they can be changed overtime.
+
+#### Immutable Objects
+
+**Immutable Objects** are like constants they can't be changed once modified.
 
 ## Question 4
 
@@ -227,7 +238,7 @@ The definition of a static method is:
 
 A static method in Java is a method that belongs to the class rather than any specific instance and can be called without creating an object of the class. It is defined with the static keyword and can only access static variables and methods directly.
 
-**`Think of it as a function in python`**
+**`Think of the static method as a function in python`**
 
 ## Question 11
 
@@ -343,7 +354,7 @@ random numbers with in a range can be created with:
 
 > `ran` is `Math.random()`
 >
-> `range` is **The range of numbers you want**
+> `range` is **The length for a range of numbers you want**
 >
 > `min` is **The smallest number you want**
 
@@ -352,7 +363,6 @@ random numbers with in a range can be created with:
 The image below shows the Java doc for all constructors of a class named Shoe.
 
 ![image](https://github.com/user-attachments/assets/73869991-3d18-4d3d-a0ef-270c4f5a18b1)
-
 
 Which of the following constructor calls will NOT compile correctly?
 
@@ -388,11 +398,46 @@ String: "javascript"
 ------------------------
 Index:  0  1  2  3  4  5  6  7  8  9
          j  a  v  a  s  c  r  i  p  t
-
-indexOf()
-
-at 1 ava and javascript are the same
 ```
+
+#### `substring()`
+
+```java
+language1.subtring(1,4);
+```
+
+> Will return the second two 3 string or Index 1 to 3.
+
+```ASCII
+String: "java"
+-------------------
+Index:  0  1  2  3
+         j  a  v  a
+```
+
+#### `indexOf()`
+
+`indexOf()` looks for when the string `ava` and `java string match up.
+
+```java
+String: "ava"
+-------------------
+Index:  0  1  2
+        a  v  a
+
+String: "javascript"
+------------------------
+Index:  0  1  2  3  4  5  6  7  8  9
+         j  a  v  a  s  c  r  i  p  t
+
+_|a|v|a|_|_|_|_|_|_
+---------------------
+j|a|v|a|s|c|r|i|p|t
+---------------------
+0 1 2 3 4 5 6 7 8 9
+```
+
+> As you can see they both match up at 1
 
 ## Question 19
 

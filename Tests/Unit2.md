@@ -2,28 +2,30 @@
 
 ## INDEX
 
-| Question Number | Question Title                                     |
-|-----------------|---------------------------------------------------|
-| [1](#question-1)  | What is the object of the Lego class type?        |
-| [2](#question-2)  | How to indicate a new comment?                     |
-| [3](#question-3)  | What happens with checking account objects?        |
-| [4](#question-4)  | What is the output of a specific code segment?     |
-| [5](#question-5)  | How to print the third character of a string?      |
-| [6](#question-6)  | How to call a non-static method?                   |
-| [7](#question-7)  | What is a valid constructor signature?             |
-| [8](#question-8)  | What is the value of `num` after execution?       |
-| [9](#question-9)  | What does the given string manipulation output?     |
-| [10](#question-10) | Which is a call to a static method?                |
-| [11](#question-11) | What is printed by the Integer max method?        |
-| [12](#question-12) | What is the result of the absolute value operation?|
-| [13](#question-13) | What matches the method signature?                 |
-| [14](#question-14) | What is the output of string comparison?           |
-| [15](#question-15) | Describe the return type and parameters of compare.|
-| [16](#question-16) | How to generate random numbers in a range?        |
-| [17](#question-17) | Which constructor call will not compile?           |
-| [18](#question-18) | What is the output of indexOf with substrings?     |
-| [19](#question-19) | What does the double casting output?               |
-| [20](#question-20) | What is the output of a basic arithmetic operation? |
+| Question Number    | Question Title                                         |
+|--------------------|--------------------------------------------------------|
+| [1](#question-1)   | What is the object of the Lego class type?             |
+| [2](#question-2)   | How to indicate a new comment?                         |
+| [3](#question-3)   | **What happens with checking account objects?**        |
+| [4](#question-4)   | What is the output of a specific code segment?         |
+| [5](#question-5)   | How to print the third character of a string?          |
+| [6](#question-6)   | How to call a non-static method?                       |
+| [7](#question-7)   | What is a valid constructor signature?                 |
+| [8](#question-8)   | What is the value of `num` after execution?            |
+| [9](#question-9)   | What does the given string manipulation output?        |
+| [10](#question-10) | **Which is a call to a static method?**                |
+| [11](#question-11) | What is printed by the Integer max method?             |
+| [12](#question-12) | What is the result of the absolute value operation?    |
+| [13](#question-13) | What matches the method signature?                     |
+| [14](#question-14) | What is the output of string comparison?               |
+| [15](#question-15) | Describe the return type and parameters of compare.    |
+| [16](#question-16) | **How to generate random numbers in a range?**         |
+| [17](#question-17) | Which constructor call will not compile?               |
+| [18](#question-18) | What is the output of indexOf with substrings?         |
+| [19](#question-19) | What does the double casting output?                   |
+| [20](#question-20) | What is the output of a basic arithmetic operation?    |
+
+> NOTE!: **Review the bolded questions**
 
 ## Question 1
 

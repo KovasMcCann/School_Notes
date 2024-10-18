@@ -106,7 +106,7 @@ System.out.println("Answer: " + (x + 10) + y);
 
 ### Explanation
 
-The reason the out put is `Answer: 1515` is beacuse there are 'three combined strings' the first being `"Answer:` the second `(x + 10)` and the third `y`. These strings are combined and printed to `System.out`.
+The reason the output is `Answer: 1515` is beacuse there are 'three combined strings' the first being `"Answer:` the second `(x + 10)` and the third `y`. These strings are combined and printed to `System.out`.
 
 ## Question 5
 
@@ -122,7 +122,7 @@ Which of the following statements correctly prints the third character in the St
 
 ### Explanation
 
-The reason this prints the third character is because it starts at the 2 character (including 0) and ends at the very next (keep in mind the last  )
+The reason this prints the third character is because it starts at the 2 character (including 0) and ends at the very next (keep in mind the last)
 
 ```java
 String:  J   a   v   a

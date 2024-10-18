@@ -146,7 +146,7 @@ public class Main {
 ```
 
 For the example above the constructor signature would be:
-> MyClass(1);
+> `MyClass(1);`
 
 Also keep in mind a constructor is used to:
 

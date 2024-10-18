@@ -16,7 +16,7 @@
 | [10](#question-10) | *`Which is a call to a static method?`                 |
 | [11](#question-11) | What is printed by the Integer max method?             |
 | [12](#question-12) | What is the result of the absolute value operation?    |
-| [13](#question-13) | What matches the method signature?                     |
+| [13](#question-13) | *`What matches the method signature?`                  |
 | [14](#question-14) | What is the output of string comparison?               |
 | [15](#question-15) | Describe the return type and parameters of compare.    |
 | [16](#question-16) | *`How to generate random numbers in a range?`          |

@@ -27,6 +27,8 @@
 
 > NOTE!: **Review the bolded questions**
 
+---
+
 ## Question 1
 
 Consider the following declaration
@@ -48,6 +50,7 @@ Circle c = new Circle();
 |     +----------------- 2. Variable Name
 +----------------------- 1. Call the Class
 ```
+---
 
 ## Question 2
 
@@ -60,6 +63,8 @@ Which of the following is used to indicate a new comment?
 - [ ] `\n`
 
 > This is pretty self explanatory
+
+---
 
 ## Question 3
 
@@ -80,6 +85,8 @@ What is true about checkingAccount1 and checkingAccount2
 
 This is because typical Class Types are **mutable** and will be changed because they point at the same **memory location** where the `checkingAccount1()` is stored.
 
+---
+
 ## Question 4
 
 Whats is the output if the following code segment?
@@ -95,6 +102,8 @@ System.out.println("Answer: " + (x + 10) + y);
 ### Explanation
 
 The reason the out put is `Answer: 1515` is beacuse there are 'three combined strings' the first being `"Answer:` the second `(x + 10)` and the third `y`. These strings are combined and printed to `System.out`.
+
+---
 
 ## Question 5
 
@@ -125,6 +134,8 @@ Method Call: str.substring(2, 3)
 Result: "v"
 ```
 
+---
+
 ## Question 6
 
 The class Computer contains a non-static void method named troubleShoot with a parameter that contains one String argument. Suppose a Computer object mac has been declared as follows:
@@ -138,6 +149,8 @@ Computer mac = new Computer();
 ### Explanation
 
 This is because `troubleShoot` is the non-static void method and `mac` has been defined already from the `Computer()` class.
+
+---
 
 ## Question 7
 
@@ -183,6 +196,8 @@ And a method is used to:
 
 **Define behavior or functionality that can be performed on an object after it has been created.**
 
+---
+
 ## Question 8
 
 What is stored in the variable num after the following code is executed?
@@ -196,6 +211,8 @@ int num = Math.pow(3,2) + 2;
 ### Explanation
 
 This is because `Math.pow()` outputs a double and the code above tries to store it as a `int`
+
+---
 
 ## Question 9
 
@@ -214,6 +231,8 @@ System.out.println(b + a);
 
 This is pretty simple just keep in mind strings are immutable
 
+---
+
 ## Question 10
 
 Which of the following is a call to a static method?
@@ -227,6 +246,8 @@ The definition of a static method is:
 A static method in Java is a method that belongs to the class rather than any specific instance and can be called without creating an object of the class. It is defined with the static keyword and can only access static variables and methods directly.
 
 **`Think of it as a function in python`**
+
+---
 
 ## Question 11
 
@@ -244,6 +265,8 @@ System.out.println(x.max(x,y));
 
 This is because `y` equals `1550` because it is equal to `50 + 1500` because `x = 1550`. All the `.max` method does is print the highest value. Which in this case is `1550`.
 
+---
+
 ## Question 12
 
 Consider the following code:
@@ -259,6 +282,8 @@ System.out.println(Math.abs(x)-5)
 
 This is a problem of simple arithmetic and is comprised of two parts. The first turns `-67.6` into `67.6`. The Second part performs subtraction by 5. Converting `67.6` into `62.6`.
 
+---
+
 ## Question 13
 
 Suppose a method has a return type of `Double`, the name `firstMethod` and a parameter list of `int num, String word`(in that order). Which of the following methods described below has the same signature as this method?
@@ -268,6 +293,8 @@ Suppose a method has a return type of `Double`, the name `firstMethod` and a par
 ### Explanation
 
 **!!!NEED TO MAKE!!!**
+
+---
 
 ## Question 14
 

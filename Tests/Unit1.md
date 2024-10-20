@@ -1,28 +1,34 @@
-# Index
-1. [Question 1](#question-1)
-2. [Question 2](#question-2)
-3. [Question 3](#question-3)
-4. [Question 4](#question-4)
-5. [Question 5](#question-5)
-6. [Question 6](#question-6)
-7. [Question 7](#question-7)
-8. [Question 8](#question-8)
-9. [Question 9](#question-9)
-10. [Question 10](#question-10)
-11. [Question 11](#question-11)
-12. [Question 12](#question-12)
-13. [Question 13](#question-13)
-14. [Question 14](#question-14)
-15. [Question 15](#question-15)
-16. [Question 16](#question-16)
-17. [Question 17](#question-17)
-18. [Question 18](#question-18)
-19. [Question 19](#question-19)
-20. [Question 20](#question-20)
+# Unit 1 Exam
+
+`NOTE: Unlike the other Exam guides this one was created with ChatGPT and may not be accurate.`
+
+## Index
+
+1. [Question 1](#Question 1)
+2. [Question 2](#Question 2)
+3. [Question 3](#Question 3)
+4. [Question 4](#Question 4)
+5. [Question 5](#Question 5)
+6. [Question 6](#Question 6)
+7. [Question 7](#Question 7)
+8. [Question 8](#Question 8)
+9. [Question 9](#Question 9)
+10. [Question 10](#Question 10)
+11. [Question 11](#Question 11)
+12. [Question 12](#Question 12)
+13. [Question 13](#Question 13)
+14. [Question 14](#Question 14)
+15. [Question 15](#Question 15)
+16. [Question 16](#Question 16)
+17. [Question 17](#Question 17)
+18. [Question 18](#Question 18)
+19. [Question 19](#Question 19)
+20. [Question 20](#Question 20)
 
 ---
 
 ### Question 1
+
 **Question:** Assuming that `scan` is a properly initialized `Scanner` variable, which of the following correctly inputs a double?
 
 > **Correct Answer:** `double val = scan.nextDouble();`
@@ -33,15 +39,18 @@
 ---
 
 ### Question 2
-**Question:** Consider the following code: 
-! 
+
+**Question:** Consider the following code:
+
+```java
 int x = -5;
 x++;
 System.out.println(x);
+```
 
 What is output?
 
-> **Correct Answer:** `-4` !
+> **Correct Answer:** `-4`
 
 **Explanation:**  
 The `x++` increments the value of `x` by 1, changing it from -5 to -4.
@@ -49,6 +58,7 @@ The `x++` increments the value of `x` by 1, changing it from -5 to -4.
 ---
 
 ### Question 3
+
 **Question:** Which of the following data types would be most appropriate to use when recording the answer to a yes or no question?
 
 > **Correct Answer:** `boolean`
@@ -59,6 +69,7 @@ A boolean data type can represent two values: `true` (yes) or `false` (no).
 ---
 
 ### Question 4
+
 **Question:** Which of the following is not a primitive data type?
 
 > **Correct Answer:** `String`
@@ -69,12 +80,15 @@ A boolean data type can represent two values: `true` (yes) or `false` (no).
 ---
 
 ### Question 5
+
 **Question:** What is output by the following code?
-! 
+
+```java
 int a = 11;
 System.out.println(a / 2);
+```
 
-> **Correct Answer:** `5` !
+> **Correct Answer:** `5`
 
 **Explanation:**  
 In integer division, the decimal part is truncated. Thus, `11 / 2` results in `5`.
@@ -82,6 +96,7 @@ In integer division, the decimal part is truncated. Thus, `11 / 2` results in `5
 ---
 
 ### Question 6
+
 **Question:** Which of the following is a legal variable name in Java?
 
 > **Correct Answer:** `nameOne`
@@ -92,9 +107,10 @@ Variable names in Java must begin with a letter, underscore, or dollar sign and 
 ---
 
 ### Question 7
+
 **Question:** What is `(19 % 7) * 2`?
 
-> **Correct Answer:** `10` !
+> **Correct Answer:** `10` ```
 
 **Explanation:**  
 Calculating the modulus first: `19 % 7` gives `5`, then multiplying by `2` results in `10`.
@@ -102,6 +118,7 @@ Calculating the modulus first: `19 % 7` gives `5`, then multiplying by `2` resul
 ---
 
 ### Question 8
+
 **Question:** Which of the following would properly create `A` and `B` as double variables?
 
 > **Correct Answer:** `double A; double B;`
@@ -112,6 +129,7 @@ This is the correct syntax to declare two double variables in Java.
 ---
 
 ### Question 9
+
 **Question:** Which of the following correctly stores the word "Ford" in a variable called `car`?
 
 > **Correct Answer:** `String car = "Ford";`
@@ -122,14 +140,17 @@ This syntax correctly declares a string variable named `car` and assigns it the 
 ---
 
 ### Question 10
+
 **Question:** Consider the following code:
-! 
+
+```java
 int c = 10 - 55 % 2; 
 System.out.println(c);
+```
 
 What is output?
 
-> **Correct Answer:** `9` !
+> **Correct Answer:** `9`
 
 **Explanation:**  
 Following the order of operations, `55 % 2` equals `1`, so `10 - 1` results in `9`.
@@ -137,15 +158,18 @@ Following the order of operations, `55 % 2` equals `1`, so `10 - 1` results in `
 ---
 
 ### Question 11
+
 **Question:** Consider the following code:
-! 
+
+```java
 int x = 10;
 int y = 3;
 System.out.println((x * y) / x);
+```
 
 What is output?
 
-> **Correct Answer:** `3` !
+> **Correct Answer:** `3`
 
 **Explanation:**  
 The expression simplifies to `y` since `(x * y) / x` equals `y`.
@@ -153,11 +177,14 @@ The expression simplifies to `y` since `(x * y) / x` equals `y`.
 ---
 
 ### Question 12
-**Question:** Consider the following variable declaration:
-! 
-double number = 23;
 
-Does a cast need to be added so this code will compile and run successfully? 
+**Question:** Consider the following variable declaration:
+
+```java
+double number = 23;
+```
+
+Does a cast need to be added so this code will compile and run successfully?
 
 > **Correct Answer:** `no, nothing`
 
@@ -167,6 +194,7 @@ The assignment of an integer to a double variable is valid in Java without casti
 ---
 
 ### Question 13
+
 **Question:** For which of the following would modular division be useful?
 
 > **Correct Answer:** `All choices are correct`
@@ -177,12 +205,15 @@ Modular division can be used for various purposes, including determining even/od
 ---
 
 ### Question 14
+
 **Question:** What is a potential problem with the following code?
-! 
+
+```java
 System.out.println("Please enter two integers: ");
 int a = scan.nextInt();
 int b = scan.nextInt();
 System.out.println("The average is: " + (a + b) / 2);
+```
 
 > **Correct Answer:** `It needs a cast so that the decimal portion will be shown.`
 
@@ -192,8 +223,10 @@ If you want the average to be a double, you need to cast the sum to double befor
 ---
 
 ### Question 15
+
 **Question:** What is output by the following code?
-! 
+
+```java
 int num = 0;
 num++;
 num++;
@@ -205,8 +238,9 @@ num--;
 num--;
 num++;
 System.out.println(num);
+```
 
-> **Correct Answer:** `3` !
+> **Correct Answer:** `3`
 
 **Explanation:**  
 The sequence has 6 increments and 3 decrements: `0 + 6 - 3 = 3`.
@@ -214,12 +248,15 @@ The sequence has 6 increments and 3 decrements: `0 + 6 - 3 = 3`.
 ---
 
 ### Question 16
+
 **Question:** What is the value of `num` after executing this segment of code?
-! 
+
+```java
 int num = 21;
 num += 72;
+```
 
-> **Correct Answer:** `93` !
+> **Correct Answer:** `93`
 
 **Explanation:**  
 The operation `num += 72` adds `72` to `21`, resulting in `93`.
@@ -227,6 +264,7 @@ The operation `num += 72` adds `72` to `21`, resulting in `93`.
 ---
 
 ### Question 17
+
 **Question:** When might you encounter a problem with integer overflow?
 
 > **Correct Answer:** `When trying to store an integer which is too big to be stored in an int variable`
@@ -237,6 +275,7 @@ This leads to an overflow error, causing the value to wrap around.
 ---
 
 ### Question 18
+
 **Question:** If in the program, we increase the number of hours by one, which of the following lines of code will correctly update `days` and `hours`?
 
 > **Correct Answer:** `days = days + hours / 24; hours = hours % 24;`
@@ -247,6 +286,7 @@ This correctly adjusts `days` and resets `hours` when necessary.
 ---
 
 ### Question 19
+
 **Question:** Correct the following code so that `p` stores the nearest integer below `43.92`.
 
 > **Correct Answer:** `int p = (int) 43.92;`
@@ -257,6 +297,7 @@ Casting to `int` will truncate the decimal, giving you `43`.
 ---
 
 ### Question 20
+
 **Question:** Which of the following will print the tens column of an integer stored in `x`?
 
 > **Correct Answer:** `System.out.print(x / 10 % 10);`

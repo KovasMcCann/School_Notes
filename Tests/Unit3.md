@@ -133,6 +133,3 @@ Then, the problem becomes a simple boolean condition of `A || B`.
 ## Question 19
 
 ## Question 20
-
-
-

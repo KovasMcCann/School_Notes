@@ -27,7 +27,7 @@ Which of the following wil always produce the same result as the code above, reg
 >   System.out.println("Good");
 > ```
 
-### Explination
+### Explanation
 
 The reason this both pieces of code perform the same operations is because the ranges for each of the values are the same.
 

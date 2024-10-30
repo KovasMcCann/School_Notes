@@ -104,32 +104,248 @@ Then, the problem becomes a simple boolean condition of `A || B`.
 
 ## Question 5
 
+Consider the following expression. Assume that x and y are properly initialized boolean variables.
+
+```java
+(x || y) && !(x && y)
+```
+
+The result of evaluating is best described as:
+
+## Explanation
+
+`(x || y) && !(x && y)` checks if at least `x` or `y` is true with `(x || y)`. Then it Checks if they aren't the same with `(x && y)`.
+
 ## Question 6
+
+Consider the following code fragment, assume val is an int:
+
+```java
+if(!(val != 50 && val >= 0))
+```
+
+Which of the following code fragments would have the same effect?
+
+## Explanation
+
+if( val == 50 || val < 0)
+
+Keep in mind the question includes a `!` at the start making it confusing.
 
 ## Question 7
 
+Assume that x and y are boolean variables and have been properly initialized.
+
+```java
+if (!(x || y) || (x && y)){ // both FALSE and both TRUE
+  System.out.print("One");
+}
+if (!((x && y) && (x || y))){ // both are different or FALSE
+  System.out.print("Two");
+}
+else{
+  System.out.print("Three"); // both are TRUE
+}
+```
+
+What will be output if the value of x is true and the value of y is false:
+
+## Explanation
+
+See comments in code
+
 ## Question 8
+
+Assume that x and y have been defined  and initialized as int values. The expression
+
+```java
+!(!(x <= y) || (y == 5))
+```
+
+is equivalent to which of the following?
+
+## Explanation
+
+`(x <= y) && (y!= 5)`
+
+this checks if __x less than or equal to y__ and __y is not 5__
 
 ## Question 9
 
-## Question 10
+Assume that x and y are boolean variables and have been properly initialized.
+
+```java
+(x || y) || !(x && y)
+```
+
+The result of evaluating the expression above is best described as:
+
+## Explanation
+
+Always true **Confused go back!!** !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1
+
+## Question 10 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+What is output by the following code segment? Assume a Triangle class exists and each triangle is correctly created.
+
+```java
+Triangle t1 = new Triangle(5, 6, 7);
+Triangle t2 = new Triangle(5, 6, 7);
+
+if (t1 == t2){
+  System.out.print("equal")
+}
+else{
+  System.out.print("not equal")
+}
+```
+
+## Explanation
+
+The code above will print `not equal` because they don't refer to the same memory address
 
 ## Question 11
 
+What is the output of the following code?
+
+```java
+int x = 14;
+if ((x * 2) / 3 >= 9){
+  x++;
+}
+if (x <= 15){
+  x += 2;
+}
+System.out.println(x);
+```
+
+## Explanation
+
+The program will print 17 because both if statements are true.
+
 ## Question 12
+
+Consider the following incomplete code segment.
+
+```java
+int x = /* missing code */;
+if (x == 15){
+  System.out.println("yes");
+}
+else{
+  System.out.println("no");
+}
+```
+
+Consider the following potential replacements for `/* missing code */`. Which of these replacements will cause the code segment to always print no?
+
+## Explanation
+
+`(int) (Math.random() * 10) + 5` will always return `no` because it will never equal 15
+
+keep in mind this example
+
+```java
+answer = (int) (ran * range) + min;
+```
 
 ## Question 13
 
+The following if statement determines the amount of customers that come in at the Java restaurant. It uses the double variables `low`, `amount` and `high`
+
+```java
+if (low < amount && amount < high){
+  System.out.println("Amount of customers could be better.");
+}
+else{
+  System.out.println("Amount of customers is great!");
+}
+```
+
+could be replaced with:
+
+## Explanation
+
+```java
+if (amount > low){
+  if (amount < high){
+    System.out.println("Amount of customers could be better.");
+  }
+  else{
+    System.out.println("Amount of customers is great!");
+  }
+}
+else{
+  System.out.println("Amount of customers is great!");
+}
+```
+
 ## Question 14
+
+The following truth table matches which boolean condition?
+
+| A        | B       |           |
+|----------|---------|-----------|
+| ✅ true  | ✅ true  | ❌ false  |
+| ✅ true  | ❌ false | ❌ false  |
+| ❌ false | ✅ true  | ✅ true   |
+| ❌ false | ❌ false | ❌ false  |
 
 ## Question 15
 
+To test if a grade (represented by the variable g) is a D )between 69 and 59, including 69 but excluding 59) you would use the following if statement:
+
+```java
+if ( g ____ 69 ____ g ____ 59)
+```
+
+What set of three symbols correctly fills the blanks in the order they appear?
+
+## Explanation
+
+`if (g <= 69 && g > 59)`
+
 ## Question 16
+
+Consider the following expression. Assume that x and y are properly initialized boolean variables.
+
+```java
+(x || y) || !(x && y)
+```
+
+The result of evaluating the expression above is best described as:
 
 ## Question 17
 
+Consider the code:
+
+```java
+if (y == 5 && x * y > 50)
+```
+
+Which of the following is an example of short circuit evaluation?
+
 ## Question 18
+
+The following truth table matches which boolean condition?
+
+| A        | B       |           |
+|----------|---------|-----------|
+| ✅ true  | ✅ true  | ✅ true   |
+| ✅ true  | ❌ false | ✅ true   |
+| ❌ false | ✅ true  | ✅ true   |
+| ❌ false | ❌ false | ❌ false  |
 
 ## Question 19
 
+`!(x >= y && w != 2)` is the same as which boolean expression?
+
 ## Question 20
+
+Assume that x and y are boolean variables and have been properly initialized.
+
+```java
+(x || y) && (x || y)
+```
+
+The result of evaluating the expression above is best described as:

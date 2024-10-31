@@ -15,7 +15,7 @@
 | [9](#question-9) | Evaluates a boolean expression that is always true, no matter the input.                    |
 | [10](#question-10)| Discusses object reference comparison in Java and its output based on memory addresses.     |
 | [11](#question-11)| Evaluates integer operations in conditional statements leading to a specific output.        |
-| [12](#question-12)| Identifies potential replacements that ensure a certain output in a conditional check.      |
+| [12](#question-12)| **Identifies potential replacements that ensure a certain output in a conditional check.**  |
 | [13](#question-13)| Reformulates a customer count condition into nested if statements for clarity.              |
 | [14](#question-14)| Matches a truth table to a simplified boolean expression reflecting logical operations.      |
 | [15](#question-15)| Tests a grade range using appropriate conditional operators to check for a specific range.  |
@@ -24,6 +24,8 @@
 | [18](#question-18)| Matches a truth table to a boolean condition involving logical operations on two variables.  |
 | [19](#question-19)| Transforms a negated boolean condition into a simpler equivalent expression.                |
 | [20](#question-20)| Evaluates a boolean expression that checks the truth of two conditions and their outputs.    |
+
+**Truth Table Examples! :** [link](https://docs.google.com/spreadsheets/d/1RDB3rBd2oTatUZvxorPyOYx6THjnI4G40j-bvkgvc7k/edit?usp=sharing)
 
 ## Question 1
 
@@ -341,7 +343,7 @@ equivalent to `!A && B` which the table reflects
 
 ## Question 15
 
-To test if a grade (represented by the variable g) is a D )between 69 and 59, including 69 but excluding 59) you would use the following if statement:
+To test if a grade (represented by the variable g) is a D between 69 and 59, including 69 but excluding 59) you would use the following if statement:
 
 ```java
 if ( g ____ 69 ____ g ____ 59)

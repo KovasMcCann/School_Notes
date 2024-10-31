@@ -183,6 +183,7 @@ What will be output if the value of x is true and the value of y is false:
 
 See comments in code
 
+![image](https://github.com/user-attachments/assets/c13dcf5b-1a8b-4213-b540-84d7358a12eb)
 
 
 ## Question 8

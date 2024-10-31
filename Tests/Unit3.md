@@ -2,27 +2,27 @@
 
 ## Index
 
-| Question Number | Description                                                                                  |
-|------------------|----------------------------------------------------------------------------------------------|
-| [1](#question-1) | Compares two conditional statements that evaluate ranges for output based on a grade value. |
-| [2](#question-2) | Evaluates a series of conditional checks on an integer variable and determines the output.   |
+| Question Number  | Description                                                                                   |
+|------------------|-----------------------------------------------------------------------------------------------|
+| [1](#question-1) | Compares two conditional statements that evaluate ranges for output based on a grade value.   |
+| [2](#question-2) | Evaluates a series of conditional checks on an integer variable and determines the output.    |
 | [3](#question-3) | Analyzes an if statement checking snowfall against defined thresholds.                        |
-| [4](#question-4) | Matches a truth table to a boolean condition, focusing on logical OR operations.             |
-| [5](#question-5) | Evaluates a boolean expression for exclusivity between two boolean variables.                |
-| [6](#question-6) | Transforms a negated condition into an equivalent form for clarity.                         |
-| [7](#question-7) | Outputs based on two boolean variables, showcasing multiple conditions.                      |
-| [8](#question-8) | Transforms a complex boolean expression into a simpler equivalent form.                     |
-| [9](#question-9) | Evaluates a boolean expression that is always true, no matter the input.                    |
-| [10](#question-10)| Discusses object reference comparison in Java and its output based on memory addresses.     |
-| [11](#question-11)| Evaluates integer operations in conditional statements leading to a specific output.        |
-| [12](#question-12)| **Identifies potential replacements that ensure a certain output in a conditional check.**  |
-| [13](#question-13)| Reformulates a customer count condition into nested if statements for clarity.              |
+| [4](#question-4) | Matches a truth table to a boolean condition, focusing on logical OR operations.              |
+| [5](#question-5) | Evaluates a boolean expression for exclusivity between two boolean variables.                 |
+| [6](#question-6) | Transforms a negated condition into an equivalent form for clarity.                           |
+| [7](#question-7) | Outputs based on two boolean variables, showcasing multiple conditions.                       |
+| [8](#question-8) | **Transforms a complex boolean expression into a simpler equivalent form.**                   |
+| [9](#question-9) | Evaluates a boolean expression that is always true, no matter the input.                      |
+| [10](#question-10)| **Discusses object reference comparison in Java and its output based on memory addresses.**  |
+| [11](#question-11)| **Evaluates integer operations in conditional statements leading to a specific output.**     |
+| [12](#question-12)| **Identifies potential replacements that ensure a certain output in a conditional check.**   |
+| [13](#question-13)| Reformulates a customer count condition into nested if statements for clarity.               | 
 | [14](#question-14)| Matches a truth table to a simplified boolean expression reflecting logical operations.      |
-| [15](#question-15)| Tests a grade range using appropriate conditional operators to check for a specific range.  |
+| [15](#question-15)| Tests a grade range using appropriate conditional operators to check for a specific range.   |
 | [16](#question-16)| Evaluates a boolean expression that is guaranteed to be true, reinforcing logical consistency.|
 | [17](#question-17)| Explains short circuit evaluation in a boolean expression involving two variables.           |
 | [18](#question-18)| Matches a truth table to a boolean condition involving logical operations on two variables.  |
-| [19](#question-19)| Transforms a negated boolean condition into a simpler equivalent expression.                |
+| [19](#question-19)| Transforms a negated boolean condition into a simpler equivalent expression.                 |
 | [20](#question-20)| Evaluates a boolean expression that checks the truth of two conditions and their outputs.    |
 
 **Truth Table Examples! :** [link](https://docs.google.com/spreadsheets/d/1RDB3rBd2oTatUZvxorPyOYx6THjnI4G40j-bvkgvc7k/edit?usp=sharing)
@@ -337,7 +337,7 @@ The following truth table matches which boolean condition?
 | ❌ false | ✅ true  | ✅ true   |
 | ❌ false | ❌ false | ❌ false  |
 
-> `!A && (A || B)
+> `!A && (A || B)`
 
 ## Explanation
 

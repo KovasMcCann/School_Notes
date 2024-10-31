@@ -1,5 +1,30 @@
 # Unit 3 Exam
-review kahoot
+
+## Index
+
+| Question Number | Description                                                                                  |
+|------------------|----------------------------------------------------------------------------------------------|
+| [1](#question-1) | Compares two conditional statements that evaluate ranges for output based on a grade value. |
+| [2](#question-2) | Evaluates a series of conditional checks on an integer variable and determines the output.   |
+| [3](#question-3) | Analyzes an if statement checking snowfall against defined thresholds.                        |
+| [4](#question-4) | Matches a truth table to a boolean condition, focusing on logical OR operations.             |
+| [5](#question-5) | Evaluates a boolean expression for exclusivity between two boolean variables.                |
+| [6](#question-6) | Transforms a negated condition into an equivalent form for clarity.                         |
+| [7](#question-7) | Outputs based on two boolean variables, showcasing multiple conditions.                      |
+| [8](#question-8) | Transforms a complex boolean expression into a simpler equivalent form.                     |
+| [9](#question-9) | Evaluates a boolean expression that is always true, no matter the input.                    |
+| [10](#question-10)| Discusses object reference comparison in Java and its output based on memory addresses.     |
+| [11](#question-11)| Evaluates integer operations in conditional statements leading to a specific output.        |
+| [12](#question-12)| Identifies potential replacements that ensure a certain output in a conditional check.      |
+| [13](#question-13)| Reformulates a customer count condition into nested if statements for clarity.              |
+| [14](#question-14)| Matches a truth table to a simplified boolean expression reflecting logical operations.      |
+| [15](#question-15)| Tests a grade range using appropriate conditional operators to check for a specific range.  |
+| [16](#question-16)| Evaluates a boolean expression that is guaranteed to be true, reinforcing logical consistency.|
+| [17](#question-17)| Explains short circuit evaluation in a boolean expression involving two variables.           |
+| [18](#question-18)| Matches a truth table to a boolean condition involving logical operations on two variables.  |
+| [19](#question-19)| Transforms a negated boolean condition into a simpler equivalent expression.                |
+| [20](#question-20)| Evaluates a boolean expression that checks the truth of two conditions and their outputs.    |
+
 ## Question 1
 
 ```java
@@ -29,7 +54,7 @@ Which of the following wil always produce the same result as the code above, reg
 
 ### Explanation
 
-The reason this both pieces of code perform the same operations is because the ranges for each of the values are the same.
+The reason for this is because both pieces of code perform the same operations and because the ranges for each of the values are the same.
 
 ## Question 2
 
@@ -112,6 +137,8 @@ Consider the following expression. Assume that x and y are properly initialized 
 
 The result of evaluating is best described as:
 
+> true only when x and y have different values
+
 ## Explanation
 
 `(x || y) && !(x && y)` checks if at least `x` or `y` is true with `(x || y)`. Then it Checks if they aren't the same with `(x && y)`.
@@ -126,9 +153,9 @@ if(!(val != 50 && val >= 0))
 
 Which of the following code fragments would have the same effect?
 
-## Explanation
+> `if( val == 50 || val < 0)`
 
-if( val == 50 || val < 0)
+## Explanation
 
 Keep in mind the question includes a `!` at the start making it confusing.
 
@@ -150,9 +177,13 @@ else{
 
 What will be output if the value of x is true and the value of y is false:
 
+> Two
+
 ## Explanation
 
 See comments in code
+
+
 
 ## Question 8
 
@@ -164,9 +195,9 @@ Assume that x and y have been defined  and initialized as int values. The expres
 
 is equivalent to which of the following?
 
-## Explanation
+> `(x <= y) && (y!= 5)`
 
-`(x <= y) && (y!= 5)`
+## Explanation
 
 this checks if __x less than or equal to y__ and __y is not 5__
 
@@ -180,11 +211,13 @@ Assume that x and y are boolean variables and have been properly initialized.
 
 The result of evaluating the expression above is best described as:
 
+> Always true
+
 ## Explanation
 
-Always true **Confused go back!!** !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1
+Always true **Confused go back!!**
 
-## Question 10 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+## Question 10
 
 What is output by the following code segment? Assume a Triangle class exists and each triangle is correctly created.
 
@@ -199,6 +232,8 @@ else{
   System.out.print("not equal")
 }
 ```
+
+> not equal
 
 ## Explanation
 
@@ -219,6 +254,8 @@ if (x <= 15){
 System.out.println(x);
 ```
 
+> 17
+
 ## Explanation
 
 The program will print 17 because both if statements are true.
@@ -237,11 +274,13 @@ else{
 }
 ```
 
-Consider the following potential replacements for `/* missing code */`. Which of these replacements will cause the code segment to always print no?
+Consider the following potential replacements for `/* missing code */`. Which of these replacements will cause the code segment to always print no
+
+> `(int) (Math.random() * 10) + 5`
 
 ## Explanation
 
-`(int) (Math.random() * 10) + 5` will always return `no` because it will never equal 15
+Will always return `no` because it will never equal 15
 
 keep in mind this example
 
@@ -263,6 +302,8 @@ else{
 ```
 
 could be replaced with:
+
+> I only
 
 ## Explanation
 
@@ -291,6 +332,12 @@ The following truth table matches which boolean condition?
 | ❌ false | ✅ true  | ✅ true   |
 | ❌ false | ❌ false | ❌ false  |
 
+> `!A && (A || B)
+
+## Explanation
+
+equivalent to `!A && B` which the table reflects
+
 ## Question 15
 
 To test if a grade (represented by the variable g) is a D )between 69 and 59, including 69 but excluding 59) you would use the following if statement:
@@ -301,9 +348,11 @@ if ( g ____ 69 ____ g ____ 59)
 
 What set of three symbols correctly fills the blanks in the order they appear?
 
+> `if (g <= 69 && g > 59)`
+
 ## Explanation
 
-`if (g <= 69 && g > 59)`
+this is correct because `g` must be lower than or equal to 69 and it must be higher than 59
 
 ## Question 16
 
@@ -315,6 +364,8 @@ Consider the following expression. Assume that x and y are properly initialized 
 
 The result of evaluating the expression above is best described as:
 
+> always true
+
 ## Question 17
 
 Consider the code:
@@ -324,6 +375,8 @@ if (y == 5 && x * y > 50)
 ```
 
 Which of the following is an example of short circuit evaluation?
+
+> if `y == 5` is false it doesn't evaluate `x * y > 50`
 
 ## Question 18
 
@@ -336,9 +389,13 @@ The following truth table matches which boolean condition?
 | ❌ false | ✅ true  | ✅ true   |
 | ❌ false | ❌ false | ❌ false  |
 
+> A || (!A && B)
+
 ## Question 19
 
 `!(x >= y && w != 2)` is the same as which boolean expression?
+
+> x < y || w == z
 
 ## Question 20
 
@@ -349,3 +406,5 @@ Assume that x and y are boolean variables and have been properly initialized.
 ```
 
 The result of evaluating the expression above is best described as:
+
+> True when x is true or when y is true

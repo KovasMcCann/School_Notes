@@ -310,6 +310,8 @@ could be replaced with:
 
 ## Explanation
 
+Keep in mind a number within the range would return `Amount of customers could be better.`
+
 ```java
 if (amount > low){
   if (amount < high){
@@ -369,6 +371,10 @@ The result of evaluating the expression above is best described as:
 
 > always true
 
+## Explanation
+
+Keep in mind of the `||` oporator which will allow it to be allways true.
+
 ## Question 17
 
 Consider the code:
@@ -398,7 +404,7 @@ The following truth table matches which boolean condition?
 
 `!(x >= y && w != 2)` is the same as which boolean expression?
 
-> x < y || w == z
+> `x < y || w == z`
 
 ## Question 20
 

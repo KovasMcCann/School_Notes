@@ -404,7 +404,7 @@ The following truth table matches which boolean condition?
 
 `!(x >= y && w != 2)` is the same as which boolean expression?
 
-> `x < y || w == z`
+> `x < y || w == 2`
 
 ## Question 20
 

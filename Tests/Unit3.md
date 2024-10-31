@@ -218,7 +218,7 @@ The result of evaluating the expression above is best described as:
 
 ## Explanation
 
-Always true **Confused go back!!**
+Always true remember to keep in mind what each function does. The first one `(x || y)` print when a least x or y is true. Then `!(x && y)` prints ture when both are false.
 
 ## Question 10
 

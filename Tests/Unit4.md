@@ -589,7 +589,6 @@ for (int i = 0; i < str.length(); i++){
 
 ### Explination
 
-```
 | i | index | str.substring(index, index + 1) | result string  |
 |---|-------|---------------------------------|----------------|
 | 0 | (0 + 3) % 6 = **3** | u                 | u              |
@@ -598,7 +597,6 @@ for (int i = 0; i < str.length(); i++){
 | 3 | (3 + 3) % 6 = **0** | r                 | rtlu           |
 | 4 | (4 + 3) % 6 = **1** | e                 | ertlu          |
 | 5 | (5 + 3) % 6 = **2** | s                 | sertllu        |
-```
 
 > Keep in mind how the results are stored and how the `substring()` method works
 
@@ -622,7 +620,7 @@ What is printed as a result of executing the code segment?
 
 ### Explination
 
-```
+
 | a | b | sum before | sum after |
 |---|---|------------|-----------|
 | 1 | 1 | 1          | 1         |
@@ -631,4 +629,3 @@ What is printed as a result of executing the code segment?
 | 2 | 2 | 1          | 2         |
 | 2 | 3 | 2          | 4         |
 | 3 | 3 | 4          | **12**    |
-```

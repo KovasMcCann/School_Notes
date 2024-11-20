@@ -320,3 +320,290 @@ for (int j = 4; j > 0; j--){
 ### Explanation
 
 The reason the first code segments works is because it correctly uses nested loops to print the numbers in descending order. The outer loop starts from 4 and decrements to 1, while the inner loop starts from the current value of the outer loop and decrements to 1, printing each number followed by a space. After the inner loop completes, a newline is printed to move to the next line of output.
+
+# Question 11
+
+Which of the following code segments prints the number of times the code substring `ab` appears in the String str?
+
+```java
+int count = 0;
+for (int i = 0; i < str.length(); i++){
+  if (str.substring(i, i + 2).equals("ab")){
+    count ++;
+  }
+}
+System.out.println(count);
+```
+
+```java
+int count = 0;
+for (int i = 0; i < str.length(); i += 2){
+  if (str.substring(i, i + 2).equals("ab")){
+    count ++;
+  }
+}
+System.out.println(count);
+```
+
+```java
+int count = 0;
+for (int i = 0; i < str.length() - 1; i += 2){
+  if (str.substring(i, i + 2).equals("ab")){
+    count ++;
+  }
+}
+System.out.println(count);
+```
+
+```java
+int count = 0;
+for (int i = 0; i <= str.length(); i++){
+  if (str.substring(i - 2, i).equals("ab")){
+    count += 1;
+  }
+}
+System.out.println(count);
+```
+
+## Answer
+
+```java
+int count = 0;
+for (int i = 0; i <= str.length(); i++){
+  if (str.substring(i - 2, i).equals("ab")){
+    count += 1;
+  }
+}
+System.out.println(count);
+```
+
+### Explanation
+
+The reason the answer is correct is because it starts at two and then increments by one looking if the substring equals `ab`. The others either increment incorrectly or start at the wrong index. The correct code ensures that all possible positions in the string are checked for the substring "ab".
+
+## Question 12
+
+Which of the following would print the numbers:
+
+`94 73 52 31`
+
+I.
+
+```java
+for (int t = 94; t > 30; t -= 21){
+  System.out.print(t + " ");
+}
+```
+
+II.
+
+```java
+int t = 115;
+while (t > 31){
+  t -= 21;
+  System.out.print(t + " ");
+}
+```
+
+III.
+
+```java
+int t = 94;
+while (t > 31){
+  System.out.print(t + " ");
+  t -= 21;
+}
+```
+
+> I and II only
+
+### Explanation
+
+Both I and II accomplish the same goal but because one uses a `for` loop and one uses a `while` loop there starting value needs to be adjusted.
+
+## Question 13
+
+Consider the following code segment.
+
+```java
+for (int n = 1; n < 20; n += 7){
+  for (int k = n; k < n + 5; k++){
+    if (k % 2 == 0){
+      System.out.print(k + " ");
+    }
+  }
+  System.out.println();
+}
+```
+
+What will be printed as a result of executing the code segment?
+
+> 2 4
+>
+> 8 10 12
+>
+> 16 18
+
+### Explanation
+
+Make sure to properly create a table showing the operations of the loops and where they start and begin.
+
+## Question 14
+
+Consider the following code:
+
+```java
+String w = "Hello World";
+for (int i = 0; i < w.length(); i++){
+  if (i % 5 != 2)
+  {
+    System.out.print(w.substring(i, i + 1) + " ");
+  }
+}
+```
+
+What is the output?
+
+> `H e l l o W r l d`
+
+### Explanation
+
+The reason it doesn't print the char. `o` at position 7 is because `7 % 5 = 2`.
+
+## Question 15
+
+What is output to the screen by the following code?
+
+```java
+int c = 1;
+while (c < 5){
+  System.out.print((int)Math.pow(-1, c) + " ");
+  c++;
+}
+```
+
+>  `-1 1 -1 1`
+
+### Explanation
+
+This program iterates -1^x for time and prints the output
+
+# Question 16
+
+Consider the following code segments.
+
+```java
+inx x = 1;
+while (x < 10 || x % 4 != 0){
+  x += 3;
+}
+System.out.println(x);
+```
+
+What is printed as a result of executing the code segment?
+
+> `16`
+
+### Explanation
+
+Create a truth table and compute the loops. **Remember to start at 1.**
+
+## Question 17
+
+Consider the following code segment
+
+```java
+for (int n =1; n < 4; n++){
+  int k;
+  for (k = n / 2; k < n; k++){
+    System.out.print("b");
+  }
+  for (k = n / 2; k > 0; k --){
+    System.out.print("a");
+  }
+  System.out.print(" ");
+}
+```
+
+> b ba bba
+
+### Explanation
+
+The code contains nested loops that print specific patterns of characters. The outer loop runs from 1 to 3, and for each iteration, the inner loops print a combination of 'b' and 'a' characters.
+
+1. For `n = 1`, the first inner loop does not execute because `k = n / 2` is 0. The second inner loop also does not execute for the same reason. Thus, no characters are printed for this iteration.
+2. For `n = 2`, the first inner loop runs once, printing 'b'. The second inner loop runs once, printing 'a'. The output is "ba".
+3. For `n = 3`, the first inner loop runs twice, printing 'bb'. The second inner loop runs once, printing 'a'. The output is "bba".
+
+The final output is "b ba bba".
+
+## Question 18 **(Review !!)**
+
+Which of the following describes a valid way to compare teh efficiency of two equivalent algorithms written in Java?
+
+> Write lines of code which calculate statement execution counts and compare these values for a range of inputs
+
+### Explanation
+
+The efficiency of an algorithm can be measured by the number of computations, or executions performed by that algorithm on a range of inputs.
+
+## Question 19
+
+Consider the following code segment?
+
+```java
+String str = "result";
+String result = "";
+for (int i = 0; i < str.length(); i++){
+  int index = (i + 3) % str.length();
+  result = str.substring(index, index + 1) + result;
+}
+```
+
+> sertlu
+
+### Explination
+
+```markdown
+| i | index | str.substring(index, index + 1) | result string  |
+|---|-------|---------------------------------|----------------|
+| 0 | (0 + 3) % 6 = **3** | u                 | u              |
+| 1 | (1 + 3) % 6 = **4** | l                 | lu             |
+| 2 | (2 + 3) % 6 = **5** | t                 | tlu            |
+| 3 | (3 + 3) % 6 = **0** | r                 | rtlu           |
+| 4 | (4 + 3) % 6 = **1** | e                 | ertlu          |
+| 5 | (5 + 3) % 6 = **2** | s                 | sertllu        |
+```
+
+> Keep in mind how the results are stored and how the `substring()` method works
+
+## Question 20
+
+Consider the following code segment.
+
+```java
+int sum = 1;
+for (int a = 1; a < 4; a++){
+  for (int b = a; b < 4; b++){
+    sum *= a;
+  }
+}
+System.out.println(sum);
+```
+
+What is printed as a result of executing the code segment?
+
+> `12`
+
+### Explination
+
+```markdown
+| a | b | sum before | sum after |
+|---|---|------------|-----------|
+| 1 | 1 | 1          | 1         |
+| 1 | 2 | 1          | 1         |
+| 1 | 3 | 1          | 1         |
+| 2 | 2 | 1          | 2         |
+| 2 | 3 | 2          | 4         |
+| 3 | 3 | 4          | **12**    |
+```

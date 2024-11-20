@@ -3,27 +3,27 @@
 ## Index
 
 | Question | Description | Link |
-|----------|-------------|------|
-| 1 | Output of a while loop with modulo operation | [Question 1](#question-1) |
-| 2 | Algorithm to remove 'a' characters from a string | [Question 2](#question-2) |
-| 3 | Output of nested loops with string manipulation | [Question 3](#question-3) |
-| 4 | Generating a random even number between 6 and 14 | [Question 4](#question-4-review) |
-| 5 | Loop to print odd numbers from 1 to 9 | [Unit 5](#unit-5) |
-| 6 | Short circuit evaluation in an if statement | [Question 6](#question-6) |
-| 7 | Infinite loop condition in a while loop | [Question 7](#question-7) |
-| 8 | Printing multiples of 5 between 1 and 50 | [Question 8](#question-8) |
-| 9 | Boolean expression evaluation | [Question 9](#question-9) |
-| 10 | Nested loops to print a pattern of numbers | [Question 10](#question-10) |
-| 11 | Counting occurrences of a substring in a string | [Question 11](#question-11) |
-| 12 | Printing numbers in a specific sequence | [Question 12](#question-12) |
-| 13 | Nested loops with conditional printing | [Question 13](#question-13) |
-| 14 | Skipping characters in a string based on index | [Question 14](#question-14) |
-| 15 | Output of a while loop with Math.pow | [Question 15](#question-15) |
-| 16 | Loop with a complex condition | [Question 16](#question-16) |
-| 17 | Nested loops with character printing | [Question 17](#question-17) |
-| 18 | Comparing algorithm efficiency | [Question 18-review](#question-18-review) |
-| 19 | String manipulation with modulo operation | [Question 19](#question-19) |
-| 20 | Nested loops with multiplication | [Question 20](#question-20) |
+|----|------------------------------------------------------|-----------------------------|
+| 1  | Output of a while loop with modulo operation         | [Question 1](#question-1)   |
+| 2  | Algorithm to remove 'a' characters from a string     | [Question 2](#question-2)   |
+| 3  | Output of nested loops with string manipulation      | [Question 3](#question-3)   |
+| 4  | **Generating a random even number between 6 and 14** | [Question 4](#question-4)   |
+| 5  | Loop to print odd numbers from 1 to 9                | [Question 5](#question-5)   |
+| 6  | Short circuit evaluation in an if statement          | [Question 6](#question-6)   |
+| 7  | Infinite loop condition in a while loop              | [Question 7](#question-7)   |
+| 8  | Printing multiples of 5 between 1 and 50             | [Question 8](#question-8)   |
+| 9  | **Boolean expression evaluation**                    | [Question 9](#question-9)   |
+| 10 | Nested loops to print a pattern of numbers           | [Question 10](#question-10) |
+| 11 | Counting occurrences of a substring in a string      | [Question 11](#question-11) |
+| 12 | Printing numbers in a specific sequence              | [Question 12](#question-12) |
+| 13 | Nested loops with conditional printing               | [Question 13](#question-13) |
+| 14 | Skipping characters in a string based on index       | [Question 14](#question-14) |
+| 15 | Output of a while loop with Math.pow                 | [Question 15](#question-15) |
+| 16 | Loop with a complex condition                        | [Question 16](#question-16) |
+| 17 | Nested loops with character printing                 | [Question 17](#question-17) |
+| 18 | **Comparing algorithm efficiency**                   | [Question 18](#question-18) |
+| 19 | String manipulation with modulo operation            | [Question 19](#question-19) |
+| 20 | Nested loops with multiplication                     | [Question 20](#question-20) |
 
 ## Question 1
 

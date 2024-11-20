@@ -589,7 +589,7 @@ for (int i = 0; i < str.length(); i++){
 
 ### Explination
 
-```markdown
+```
 | i | index | str.substring(index, index + 1) | result string  |
 |---|-------|---------------------------------|----------------|
 | 0 | (0 + 3) % 6 = **3** | u                 | u              |
@@ -622,7 +622,7 @@ What is printed as a result of executing the code segment?
 
 ### Explination
 
-```markdown
+```
 | a | b | sum before | sum after |
 |---|---|------------|-----------|
 | 1 | 1 | 1          | 1         |

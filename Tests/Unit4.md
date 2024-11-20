@@ -88,7 +88,7 @@ while (i < str1.length()){
 
 What this code does is set pointers for the start of `str1` and the end of `str2`. In the while loop the character the matches the specific pointers is printed and the code will wither add or subtract to reach the next value.
 
-## Question 4 *(Review!!)*
+## Question 4
 
 Which of the following statements will return a random **even** number between 6 and 14 inclusive?
 
@@ -562,7 +562,7 @@ The code contains nested loops that print specific patterns of characters. The o
 
 The final output is "b ba bba".
 
-## Question 18 **(Review !!)**
+## Question 18
 
 Which of the following describes a valid way to compare teh efficiency of two equivalent algorithms written in Java?
 

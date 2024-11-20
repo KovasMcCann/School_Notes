@@ -200,7 +200,7 @@ for (int k = 50; k >= 0; k -= 5){
 
 > I and II only
 
-## Explanation 
+## Explanation
 
 both I and II work but they both use different ways to accomplish the same goal.
 
@@ -209,7 +209,6 @@ both I and II work but they both use different ways to accomplish the same goal.
 2. Counts incrementally by 5 from 5 accomplishing the same task without computation.
 
 3. Is wrong because it will also print `0` this is not a valid output and is caused by `k >= 0` if the code was changed to `k > 0` it would be fine.
-
 
 ## Question 9 *(Review!!)*
 
@@ -328,19 +327,16 @@ for (int j = 4; j > 0; j--){
 >
 > 1
 
-# Answer
+### Answer
 
-> for (int j = 4; j > 0; j--){
->
->  for (int k = j; k > 0; k--){
->
->    System.out.println(k + " ");
->
->  }
->
->  System.out.println();
->
->}
+```java
+for (int j = 4; j > 0; j--){
+  for (int k = j; k > 0; k--){
+    System.out.println(k + " ");
+  }
+  System.out.println();
+}
+```
 
 ### Explanation
 
@@ -390,7 +386,7 @@ for (int i = 0; i <= str.length(); i++){
 System.out.println(count);
 ```
 
-## Answer
+### Answer
 
 ```java
 int count = 0;
@@ -507,7 +503,7 @@ while (c < 5){
 }
 ```
 
->  `-1 1 -1 1`
+> `-1 1 -1 1`
 
 ### Explanation
 
@@ -550,7 +546,7 @@ for (int n =1; n < 4; n++){
 }
 ```
 
-> b ba bba
+> `b ba bba`
 
 ### Explanation
 
@@ -619,7 +615,6 @@ What is printed as a result of executing the code segment?
 > `12`
 
 ### Explination
-
 
 | a | b | sum before | sum after |
 |---|---|------------|-----------|

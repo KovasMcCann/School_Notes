@@ -1,36 +1,28 @@
-1 | 0 1 2 0 1 2 0
-2 | Prints each character in the string, str, except for the lowercase a's
-3 | iahbgcfd
-4 | 6 + 2 * (int) (5 * Math.random())
-5 | 1, < 10, += 2
-6 | if a < b is false, then c != d is not evaluated
-7 | a >= 20
-8 | I and II only
-9 | true only when y is true
-10 | 
-for (int j = 4; j > 0; j--){
-  for (int k = j; k > 0; k--){
-    System.out.println(k + " ");
-  }
-  System.out.println();
-}
-11 | 
-int count = 0;
-for (int i = 0; i <= str.length(); i++){
-  if (str.substring(i - 2, i).equals("ab")){
-    count += 1;
-  }
-}
-System.out.println(count);
-12 | I an II only
-13 | 
+|1 | 0 1 2 0 1 2 0
+|2 | str, except a's
+|3 | iahbgcfd
+|4 | 6 + 2 * (int) (5 * Math.random())
+|5 | 1, < 10, += 2
+|6 | a < b, false, c != d
+|7 | a >= 20
+|8 | I and II
+|9 | true only when y is true
+|10 | 
+(int j = 4; j > 0; j--)
+(int k = j; k > 0; k--)
+|11 | 
+(int i = 0; i <= str.length(); i++)
+(str.substring(i - 2, i).equals("ab"))
+count += 1;
+|12 | I an II
+|13 | 
 2 4
 8 10 12
 16 18
-14 | H e l l o W r l d
-15 | -1 1 -1 1
-16 | 16
-17 | b ba bba
-18 | Write lines of code which calculate statement execution counts and compare these values for a range of inputs
-19 | sertlu
-20 | 12
+|14 | H e l l o W r l d
+|15 | -1 1 -1 1
+|16 | 16
+|17 | b ba bba
+|18 | range of inputs
+|19 | sertlu
+|20 | 12

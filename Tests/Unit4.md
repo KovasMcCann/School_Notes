@@ -210,7 +210,7 @@ both I and II work but they both use different ways to accomplish the same goal.
 
 3. Is wrong because it will also print `0` this is not a valid output and is caused by `k >= 0` if the code was changed to `k > 0` it would be fine.
 
-## Question 9 *(Review!!)*
+## Question 9
 
 Assume that `x` and `y` are boolean variables and have been properly initialized.
 

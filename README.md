@@ -29,7 +29,7 @@ This definition focuses on the problem-solving aspect of computer science. One m
 2. ~~Using Objects~~  
 3. ~~Boolean Expressions and If Statements~~  
 4. ~~Iteration~~  
-5. Writing Classes  
+5. ~~Writing Classes~~  
 
 #### Semester 2:
 6. Arrays  

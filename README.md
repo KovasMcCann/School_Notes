@@ -32,7 +32,7 @@ This definition focuses on the problem-solving aspect of computer science. One m
 5. ~~Writing Classes~~  
 
 #### Semester 2:
-6. Arrays  
+6. ~~Arrays~~  
 7. ArrayLists  
 8. 2D Arrays  
 9. Inheritance  

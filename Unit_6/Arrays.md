@@ -10,7 +10,7 @@ String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
 
 ## Access
 
-To access elements of an Array you can use the name of the array and the desired position inclosed in ``[]``'s
+To access elements of an Array you can use the name of the array and the desired position inclosed inside of the ``[]``'s
 
 ```java
 System.out.println(cars[0])

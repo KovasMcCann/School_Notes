@@ -6,6 +6,9 @@ To add values you can use ``{"",""}``
 
 ```java
 String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+
+// Another way to declare an array is with
+String[] cars = new String[2];
 ```
 
 ## Access
@@ -23,7 +26,7 @@ System.out.println(cars[0])
 To modify an array you specify which location and set it equal to desired input
 
 ```java
-cars[0] = "Mercedes"
+cars[0] = "Mercedes" //This set up 1 space in memory for storage because of the [0]
 System.out.println(cars[0])
 ```
 

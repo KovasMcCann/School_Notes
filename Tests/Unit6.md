@@ -251,7 +251,7 @@ What is printed as a result of executing the code segment?
 ### Question 19
 ### Question 20
 
-##Alternate
+## Alternate
 
 ### Question 1
 ### Question 2

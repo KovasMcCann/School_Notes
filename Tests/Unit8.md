@@ -72,9 +72,15 @@ Just create a table and look up the answer
 
 ## Question 4
 
+Neeeds a temp to rewrite
+
 ## Question 5
 
+Just look at the if statement
+
 ## Question 6
+
+
 
 ## Question 7
 

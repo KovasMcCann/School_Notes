@@ -121,8 +121,43 @@ It must be the first line of the constructor in the child class.
 Consider the following class definition. 
 
 ```java
-public
+public class WhatIt{
+    private int length;
+    private int width;
+
+    public int getArea (){
+        // implementation not shown
+    }
+
+    private int getPerimeter() {
+        // implementation not shown
+    }
+}
 ```
 
+A child class Thingy that extends WhatIt would have access to:
+
+> `getArea()`
 
 ## Question 10
+
+Consider the following class:
+
+```java
+public class FrozenDesert{
+    public FrozenDesert(){
+        System.out.println("Yum")
+    }
+}
+```
+
+You write a class, FrozenYogurt, Which extends FrozenDesert. Which is a correct implementation of the constructor for FrozenYogurt?
+
+```java
+public FrozenYogurt(){
+    super();
+    System.out.println("I'm the new ice cream");
+}
+```
+
+This works because the ``super()`` call is in the first line

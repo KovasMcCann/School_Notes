@@ -6,6 +6,8 @@ There are Parent Classes (Superclasses) that have code that can be **inherited**
 
 **is-a** Relation ship
 
+There is only one super class
+
 anything with ``private`` is not inherited
 
 ### Graphical Explanation
@@ -49,6 +51,10 @@ public static void doWork(){
 ## Using `Super()` Keyword
 
 Can call methods that have been overwritten
+
+When dealing with superclasses hard check each instruction ie.
+
+when super.applybreaks is called you should go to the super class then check again where you are.
 
 ## Polymorphism
 

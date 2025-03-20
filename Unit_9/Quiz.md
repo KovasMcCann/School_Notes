@@ -6,7 +6,7 @@ All classes in Java inherit from the ____ Class.
 
 > Object
 
-Use this as a reference for the question aboce
+Use this as a reference for the question above
 
 ```java
 class MyClass {

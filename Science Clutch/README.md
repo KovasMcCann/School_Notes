@@ -5,7 +5,7 @@
 
 [Strongly Sugested Problems](https://drive.google.com/file/d/0B-sIUDHNaRboQ0xFYVlteWQ1SWs/view?resourcekey=0-X0xAIuJuzT5X8VJ5hIa6lQ)
 
-[Fnet=Ma Orgainc Chem.](https://www.youtube.com/watch?v=tfAJDST3cjo)
+[Fnet=Ma Orgainc Chem.](https://www.youtube.com/watch?v=tfAJDST3cjo) Video Fells good all question's right!!!!
 
 ## Projectiles
 [Projectiles Organic Chem.](https://www.youtube.com/watch?v=8NLzuURxFwY)

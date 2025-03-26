@@ -5,10 +5,10 @@
 
 [Strongly Sugested Problems](https://drive.google.com/file/d/0B-sIUDHNaRboQ0xFYVlteWQ1SWs/view?resourcekey=0-X0xAIuJuzT5X8VJ5hIa6lQ)
 
-[Fnet=Ma Orgainc Chem.](https://www.youtu.be/Ee6CHn0MRKE)
+[Fnet=Ma Orgainc Chem.](https://www.youtube.com/watch?v=tfAJDST3cjo)
 
 ## Projectiles
-[Projectiles Organic Chem.](https://www.youtu.be/8NLzuURxFwY)
+[Projectiles Organic Chem.](https://www.youtube.com/watch?v=8NLzuURxFwY)
 
 [Entire Unit 6 Packet](https://drive.google.com/file/d/1vd9rfdB6dssNRyUREraeuaU3vncbnfyl/view?usp=sharing)
 
@@ -19,7 +19,7 @@
 
 [Strongly Sugested Problems](https://drive.google.com/file/d/16CuZs4wvLGyfg_Tsso9H_21c6fZg_oJQ/view)
 
-[Circular Motion Guide Organic Chem](https://www.youtu.be/IawY86XveQE)
+[Circular Motion Guide Organic Chem](https://www.youtube.com/watch?v=IawY86XveQE)
 
 ## LOL diagrams
 

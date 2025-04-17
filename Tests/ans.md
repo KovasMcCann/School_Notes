@@ -1,5 +1,3 @@
-## Alternate (100% chance)
-
 ### Question 1
 > ``return String[] {"apple", "banana", "orange"};``
 

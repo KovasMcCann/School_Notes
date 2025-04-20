@@ -33,10 +33,10 @@ This definition focuses on the problem-solving aspect of computer science. One m
 
 #### Semester 2:
 6. ~~Arrays~~  
-7. ArrayLists  
-8. 2D Arrays  
-9. Inheritance  
-10. Recursion  
+7. ~~ArrayLists~~  
+8. ~~2D Arrays~~  
+9. ~~Inheritance~~  
+10. ~~Recursion~~  
 11. AP Exam Sharpening (Review)
 
 ``!! Crossed out if completed !!``

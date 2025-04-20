@@ -1,4 +1,4 @@
-!! 22 days left !!
+!! 16 days left !!
 
 # Rescources
 
@@ -12,13 +12,12 @@
 
 [Video Quick Summary](https://www.youtube.com/watch?v=_mClihsGtjY)
 
-Plan
+Plan:
 
-Complete youtube summary
+1. Complete Youtube summary
 
-review w3schools and cs awesome
+2. review w3schools and cs awesome
 
-start fiveable
+3. start fiveable
 
-FRQ's
-
+4. FRQ's

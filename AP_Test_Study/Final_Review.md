@@ -8,6 +8,8 @@
 
 [FRQ Practice](https://apcentral.collegeboard.org/courses/ap-computer-science-a/exam/past-exam-questions)
 
+[FRQ Prep Videos](https://www.youtube.com/watch?v=RkAiuHtM_7s)
+
 [**FiveAble**](https://library.fiveable.me/ap-comp-sci-a)
 
 [Video Quick Summary](https://www.youtube.com/watch?v=_mClihsGtjY)

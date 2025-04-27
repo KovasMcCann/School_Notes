@@ -628,13 +628,76 @@ set()
 remove(int position)
 - removes an element
 
-## Unit 8 Two Dimensional Arrays
+## Unit 8 Two Dimensional Arrays (Matrices)
 
 Second Video [link](https://www.youtube.com/watch?v=Zs_OWyCUWjg)
 
-## Unit 9 Inheratence
+2D arrays are just regular Array's with rows and collumns
+
+How to declare a 2D array:
+
+```java
+dataType[][] name = new dataType[row][collum]; //size of rows and collum
+
+// declare values
+dataType[][] name = {{1,2,3},
+                     {4,5,6},
+                     {7,8,9}}
+```
+
+## Unit 9 Inheratence and Polymorphism
 
 Third Video [link](https://www.youtube.com/watch?v=GsXTroueOMA)
+
+Allows you to easily manange multiple groups of objects
+
+Think of this as a tree where the top has the broadest of characteristics while each sub-class contains more and more granularity
+
+### Inheritance Tree Example
+
+```plaintext
+          Animal
+         /      \
+    Mammal       Bird
+    /   \         |
+ Dog    Cat      Parrot
+```
+
+- **Animal** is the parent class.
+- **Mammal** and **Bird** inherit from **Animal**.
+- **Dog** and **Cat** inherit from **Mammal**.
+- **Parrot** inherits from **Bird**.
+
+**is-a** relation ship
+- each sub class *is-a* part of the super class
+
+### Extends (creating a sub class)
+
+here is an example
+
+**Super Class**
+```java
+pulic class Superclass{
+
+}
+```
+
+```java
+public class class extends Superclass{
+
+}
+```
+
+now class will inherit all the objects in Superclass
+
+
+### Overides
+
+If you have two objects (methods or veriables) with the same name in a super class and subclass the subclass will overwrite the supperclass
+
+### Code-Along
+
+**NEED TO COMPLETE**
 
 ## Unit 10 Recursion
 

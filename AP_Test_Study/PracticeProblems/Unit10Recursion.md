@@ -81,6 +81,7 @@ public static int re(int n){
 }
 ```
 
+```java
 re(30)
 
 re(re(6))
@@ -94,5 +95,6 @@ re(9)
 re(re(9))
 
 re(3)
+```
 
 > 9

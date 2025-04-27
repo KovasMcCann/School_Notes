@@ -8,7 +8,7 @@ Java is case sensitive
 
 need matching braces ``{}``
 
-### Veriables
+### Variables
 
 how to define
 
@@ -32,7 +32,7 @@ ex: ``String playerName = "Kovas";``
 
 ### Order of operations
 
-PEMDAS
+*PEMDAS*
 
 | Arithmetic    | Operator | Example     |
 |---------------|----------|-------------|
@@ -58,7 +58,7 @@ Tricks
 - last 2 digits
  - ``int lastDigit = n % 100``
  - > 92
-- This add one more 0 will keep repeting
+- This add one more 0 will keep repeating
 
 #### Even/Odd
 
@@ -99,16 +99,16 @@ int a = 1;
 int b = 3;
 
 System.out.println( a == 0 && b == 3);
-System.out.pritnln( a == 9 || b == 3);
+System.out.println( a == 9 || b == 3);
 ```
 
-> false (becuase a != 0)
+> false (because a != 0)
 >
-> true (this is an or statment therefore both don't apply)
+> true (this is an or statement therefore both don't apply)
 
 ### DeMorgan's Law
 
-adding a ``!`` will inverse the output of an opperator
+adding a ``!`` will inverse the output of an operator
 
 ``!(a <= b || b > c)`` = ``(a > b && b <= c)``
 
@@ -137,7 +137,7 @@ else (condition){
 
 ## Unit 2 Methods 
 
-Methods are a group of insturctions that performs a task
+Methods are a group of instructions that performs a task
 
    - Designed to be used like a tool
 
@@ -148,10 +148,10 @@ Methods are a group of insturctions that performs a task
 public void inchToCm(value)
 
 - public/private
-    - Who can accesss the veriable
+    - Who can access the variable
 
 - void/(type)
-    - What is outputed
+    - What is outputted
 
 - inchToCm(value) (Name)
     - you can pass a value into the method for interacting with data
@@ -171,7 +171,7 @@ A class defines how to create objects
 public class MainPlayer {
     //instance variables
     private String name; //note because private it can only be accessed in the class!!!
-    private int livesleft;
+    private int livesLeft;
 
     //constructor
     public MainPlayer(){
@@ -204,7 +204,7 @@ public class MainPlayer {
 
 - Store the data for each class
     - This applies for when a new object is made 
-    - i.e every new object has new instance veriables
+    - i.e every new object has new instance variables
 
 **Constructor**
 
@@ -212,11 +212,11 @@ public class MainPlayer {
 public MainPlayer()
 ```
 
-> This is the constructor itelf
+> This is the constructor itself
 
 - it is used when you wan't to run a method in java
 - in a main method ``MainPlayer player1 = new MainPlayer();`` would use the default constructor
-- there can be mulitiple types of constrcutors that may pass veriables
+- there can be multiple types of constructors that may pass variables
 
 **Seters and Getters**
 
@@ -245,10 +245,10 @@ player.run();  // Output: Alice is running!
 
 ### Strings
 
-- While not typicaly considered a class it still is one
-    - Think of how veriables (strings) are defined
+- While not typically considered a class it still is one
+    - Think of how variables (strings) are defined
 
-#### Concatatination
+#### Concatenation
 
 Definition: ``the action of linking things together in a series``
 
@@ -266,7 +266,7 @@ This is an example of concatenation as ``Kovas`` and ``McCann`` were combined
 
 **Numbers !!important!!**
 
-When numbers are concated into a string **they will not be added** but will when there are in a integer or double
+When numbers are concatenated into a string **they will not be added** but will when there are in a integer or double
 
 ```java
 int x = 420;
@@ -318,11 +318,11 @@ System.out.println(s1.equals(s2));
 >
 > true
 
-The reason that String Objects and String Literals output different values on the ``==`` is because of the parenthese.
+The reason that String Objects and String Literals output different values on the ``==`` is because of the parentheses.
 
-This is becuase the ``==`` looks at the memory address and in the case of Objects they are different
+This is because the ``==`` looks at the memory address and in the case of Objects they are different
 
-For more information look at [Reference Vs. Primitive veriable types](####-Reference-Vs-Primitive-veriable-types)
+For more information look at [Reference Vs. Primitive variable types](####-Reference-Vs-Primitive-veriable-types)
 
 #### CompareTo()
 
@@ -339,7 +339,7 @@ the order is numbers < uppercase < lowercase
 ```java
 String String1 = "Apple"; //A is in POS 1 in the alphabet
 String String2 = "Apple"; //A is in POS 1
-String String3 = "Oragne"; //O is in POST 15
+String String3 = "Orange"; //O is in POST 15
 
 System.out.println(String1.CompareTo(String2)) //Apples and Apples
 System.out.println(String1.CompareTo(String3)) //Apples and Oranges
@@ -358,22 +358,22 @@ String game = "Pokemon";
 System.out.println(game.substring(0, 4))
 ```
 
-> Pokie
+> Poke
 
 Remember that the starting index is inclusive (n) and the end index in non inclusive (n + 1)
 
 ### Math Class
 
-The Math Class is shiped with java and gives you methods like:
+The Math Class is shipped with java and gives you methods like:
 
 - ``abs()``:
-    - returns the absolute vale of an numerical veriable
+    - returns the absolute vale of an numerical variable
     - ```java
       math.abs(-1) //returns: 1
       ```
 
 - ``sqrt()``:
-    - retuns the square root of an input
+    - returns the square root of an input
     - ```java
       math.sqrt(16) //returns: 4
       ```
@@ -401,14 +401,14 @@ Using ``math.random()`` to print from a different range
 ```java
 double x = (int) (math.random() * 6) + 1
 
-System.out.pritnln(x);
+System.out.println(x);
 ```
 
-**Explination**
+**Explanation**
 
-The `(int)` casts the veriable from a boolean (decimal values) into an integer (non decmial values) this gives you only hole numbers
+The `(int)` casts the variable from a boolean (decimal values) into an integer (non decimal values) this gives you only hole numbers
 
-`Math.random()` is multipled by 6 to give you a range from 0 - 5
+`Math.random()` is multiplied by 6 to give you a range from 0 - 5
    - this works because Math.random gives a number between 0 and 1 and the multiplication spreads it out along a larger distance
 
 The plus one shifts the values from 0 - 5 to 0 - 6
@@ -419,11 +419,11 @@ Formula:
 (int) (Math.random() * range) + first number in range
 ```
 
-#### Reference Vs Primitive veriable types
+#### Reference Vs Primitive variable types
 
 Primitive:
 
-- Shiped with java
+- Shipped with java
     - ex: int, double, boolean 
 
 example:
@@ -431,7 +431,7 @@ example:
 ```java
 int num1 = 10;
 
-System.out.pritnln(num1);
+System.out.println(num1);
 ```
 
 > 10
@@ -443,7 +443,7 @@ Reference:
 
 ```java
 Circle c1 = new Circle("Yellow");
-System.out.pritnln(c1);
+System.out.println(c1);
 ```
 
 > circle@677327b6
@@ -454,7 +454,7 @@ Difference example:
 
 ```java
 Circle c1 = new Circle("Yellow");
-Circel c2 = new Circle("Blue");
+Circle c2 = new Circle("Blue");
 
 c2 = c1;
 
@@ -477,7 +477,7 @@ runs *while* a conditions is meet
 int x = 1;
 
 while (x < 5){
-    System.out.pritn(x);
+    System.out.println(x);
     x++;
 }
 ```
@@ -499,7 +499,7 @@ for(int x = 1; x < 5; x++){
 
 ### Scope
 
-Accessing veriables that are in a for loop can't be done on the outside
+Accessing variables that are in a for loop can't be done on the outside
 
 Example:
 
@@ -516,11 +516,11 @@ public class scope {
 }
 ```
 
-> java.lang.Error: Unresolved compilation problem: n cannot be resovled to a veriable
+> java.lang.Error: Unresolved compilation problem: n cannot be resolved to a variable
 
-Right now the program would return an error because the veriable x would not be accessable out side of the for loop
+Right now the program would return an error because the variable x would not be accessible out side of the for loop
 
-To fix this issue uncommenting `int x;` would allow the program to accesss `x` and print the value of 5
+To fix this issue uncommenting `int x;` would allow the program to access `x` and print the value of 5
 
 ### Nested loops
 
@@ -548,7 +548,7 @@ for (int i; i < 3; i++){
 
 ## Unit 6 Arrays
 
-Arrays allow you to store multuiple values (of a fixed size) into a single variable
+Arrays allow you to store multiple values (of a fixed size) into a single variable
 
 example:
 
@@ -599,10 +599,10 @@ for(String x : sodaArray){
 
 ### Fetching last element
 
-to get the last element of an array you can use the .length method and some simple arithmatic
+to get the last element of an array you can use the .length method and some simple arithmetic
 
 ```java
-String lastDrink = sodaArray[sodayArray.length - 1];
+String lastDrink = sodaArray[sodaArray.length - 1];
 ```
 
 ### Array Lists
@@ -623,7 +623,7 @@ add()
 - This adds an element to an Array List
 
 set()
-- this rewrites a veriable
+- this rewrites a variable
 
 remove(int position)
 - removes an element
@@ -632,12 +632,12 @@ remove(int position)
 
 Second Video [link](https://www.youtube.com/watch?v=Zs_OWyCUWjg)
 
-2D arrays are just regular Array's with rows and collumns
+2D arrays are just regular Array's with rows and columns
 
 How to declare a 2D array:
 
 ```java
-dataType[][] name = new dataType[row][collum]; //size of rows and collum
+dataType[][] name = new dataType[row][collum]; //size of rows and column
 
 // declare values
 dataType[][] name = {{1,2,3},
@@ -645,11 +645,11 @@ dataType[][] name = {{1,2,3},
                      {7,8,9}}
 ```
 
-## Unit 9 Inheratence and Polymorphism
+## Unit 9 Inheritance and Polymorphism
 
 Third Video [link](https://www.youtube.com/watch?v=GsXTroueOMA)
 
-Allows you to easily manange multiple groups of objects
+Allows you to easily manage multiple groups of objects
 
 Think of this as a tree where the top has the broadest of characteristics while each sub-class contains more and more granularity
 
@@ -677,7 +677,7 @@ here is an example
 
 **Super Class**
 ```java
-pulic class Superclass{
+public class Superclass{
 
 }
 ```
@@ -691,9 +691,9 @@ public class class extends Superclass{
 now class will inherit all the objects in Superclass
 
 
-### Overides
+### Overrides
 
-If you have two objects (methods or veriables) with the same name in a super class and subclass the subclass will overwrite the supperclass
+If you have two objects (methods or variables) with the same name in a super class and subclass the subclass will overwrite the superclass
 
 ### Code-Along
 
@@ -702,3 +702,93 @@ If you have two objects (methods or veriables) with the same name in a super cla
 ## Unit 10 Recursion
 
 Forth Video [link](https://www.youtube.com/watch?v=W0qeMfPOcfY)
+
+What is Recursion:
+
+recursion is a programming technique where a method calls itself within its own definition
+
+Example:
+
+```java
+public class Test {
+    public static void main(String[] args){
+        minusOne(10);
+    }
+    public static void minusOne(int n){
+        if(n == 0){
+            return;
+        }
+        System.out.print(n)
+        return minusOne(n-1);
+    }
+}
+```
+
+> 10987654321
+
+Example 2:
+
+What is returned by the call `re(5)`
+
+```java
+public int re(int n){
+    if (n == 1)
+        return 1;
+
+    return n*re(n - 1);
+}
+```
+
+To figure out what the program will output we can trace the programs steps
+
+We first start with the output of 5 and because it's not equal to 1 we return `5*re(4)`
+
+We go all the way down until `n` equals 1
+
+Once we get to this point we start completing the operation
+
+it will look like this
+
+> 1 * 2 * 3 * 4 * 5
+
+we know 5! is 120 so the answer is 
+
+> 120
+
+**In-depth explanation**
+
+```plaintext
+re(5)
+ |
+ +-- re(4)
+    |
+    +-- re(3)
+         |
+         +-- re(2)
+            |
+            +-- re(1)
+               |
+               +-- 1 (base case)
+```
+
+Each level represents a recursive call, and the base case is reached at `re(1)`. The computation then resolves back up the chain.
+
+## Other Key points (things to remember)
+
+### integer division
+
+Dividing two integers will not yield a decimal answer
+
+example:
+
+divide(5)
+
+```java
+public static int divide(int n){
+    System.out.println(n / 2)
+}
+```
+
+> 2
+
+The reason java outputs `2` and not `2.5` is because both `n` and 2 are integers and integer division will not convert int's ~> doubles

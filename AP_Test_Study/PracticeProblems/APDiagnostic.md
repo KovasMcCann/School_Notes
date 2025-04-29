@@ -365,11 +365,39 @@ Which correctly prints the numbers 4, 8, 12,..., 32?
 
 > I and II
 
-## Explination
+## Explanation
 
 3 doesn't work because it returns 0 first
 
 # Question 17
+
+```java
+public void test(int maxNum){
+    int first = 0;
+    int second = 0;
+    int third = 0;
+
+    for (int k = 1; k <=maxNum; k++){
+        if (k % 2 == 0 && k % 3 == 0){
+            first++;
+        }
+        
+        if (k % 2 == 0){
+            second++;
+        }
+       
+        if (k % 3 == 0){
+            third++;
+        }
+    }
+    System.out.println(first + " " + second + " " + third);
+}
+```
+
+What is printed as a result of the call test(30)
+
+>  5 15 10
+
 # Question 18
 # Question 19
 # Question 20

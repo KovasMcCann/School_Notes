@@ -1,4 +1,4 @@
-!! 16 days left !!
+!! 1 day left !!
 
 # Rescources
 

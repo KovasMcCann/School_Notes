@@ -30,3 +30,13 @@ ArrayList<String> List = new ArrayList<>();
 
 Need To declare a string with String ___ = 
 
+Plan:
+
+APCS
+
+Micro
+
+Math
+ - print and fill out all packets
+ - complete review
+ - all calc!!!

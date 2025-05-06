@@ -20,6 +20,13 @@ Plan:
 
 2. review w3schools and cs awesome
 
-3. start fiveable
-
 4. FRQ's
+
+CheatSheet:
+
+Review Casting
+
+ArrayList<String> List = new ArrayList<>();
+
+Need To declare a string with String ___ = 
+

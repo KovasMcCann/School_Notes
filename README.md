@@ -37,7 +37,7 @@ This definition focuses on the problem-solving aspect of computer science. One m
 8. ~~2D Arrays~~  
 9. ~~Inheritance~~  
 10. ~~Recursion~~  
-11. AP Exam Sharpening (Review)
+11. ~~AP Exam Sharpening (Review)~~
 
 ``!! Crossed out if completed !!``
 

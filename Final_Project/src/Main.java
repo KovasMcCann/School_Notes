@@ -71,7 +71,7 @@ public class Main extends Application {
         orbit.setStroke(Color.WHITE);
         orbit.setFill(null); // Don’t fill the orbit circle
         orbit.setOpacity(0.5);
-        orbit.setStrokeWidth((size * 2) / 2); // Use a visible but not excessive stroke width
+        orbit.setStrokeWidth((size * 10) / 3); // Use a visible but not excessive stroke width
         orbits.add(orbit); // Add to the list
 
 

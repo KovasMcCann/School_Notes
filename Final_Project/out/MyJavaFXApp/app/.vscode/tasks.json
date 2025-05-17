@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Compile JavaFX",
+        "type": "shell",
+        "command": "javac",
+        "args": [
+          "--module-path",
+          "C:/jfx-21.0.2/lib",
+          "--add-modules",
+          "javafx.controls",
+          "-d",
+          "out",
+          "src/Main.java"
+        ],
+        "group": "build",
+        "problemMatcher": []
+      }
+    ]
+  }
+  

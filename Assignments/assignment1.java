@@ -85,5 +85,7 @@ class Assignment1
     
     System.out.printf("Overall grade: %d\n", total);
     
+    //close the scanner
+    myObj.close();
   }
 }

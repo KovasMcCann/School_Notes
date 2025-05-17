@@ -6,10 +6,12 @@ import javafx.scene.Scene;
 import javafx.scene.shape.Sphere;
 import javafx.scene.AmbientLight;
 import javafx.stage.Stage;
+// Ensure this import is present
 import javafx.scene.paint.Color;
 import javafx.scene.PerspectiveCamera;
 
 import javafx.util.Duration;
+import javafx.scene.paint.Color;
 
 import javafx.animation.PathTransition;
 import javafx.scene.shape.Circle;
@@ -40,6 +42,7 @@ public class Main extends Application {
     String[] PlanetColorNames = {"gray", "red", "blue", "red", "brown", "yellow", "light blue", "dark Blue"}; // Placeholder value
 
     ArrayList<Sphere> planets = new ArrayList<>();
+    ArrayList<Circle> orbits = new ArrayList<>();
 
     private Color getColorFromName(String name) {
         switch (name.toLowerCase()) {
@@ -65,11 +68,11 @@ public class Main extends Application {
         planets.add(planet);
 
         Circle orbit = new Circle(width / 2, height / 2, distance * 100);
-        //show the orbit as a white circle
         orbit.setStroke(Color.WHITE);
-        orbit.setFill(Color.TRANSPARENT);
+        orbit.setFill(null); // Don’t fill the orbit circle
         orbit.setOpacity(0.5);
-        orbit.setStrokeWidth(100 * size);
+        orbit.setStrokeWidth((size * 2) / 2); // Use a visible but not excessive stroke width
+        orbits.add(orbit); // Add to the list
 
 
         PathTransition orbitTransition = new PathTransition();
@@ -133,6 +136,9 @@ public class Main extends Application {
         Group world = new Group(sun, ambientLight);
         for (Sphere planet : planets) {
             world.getChildren().add(planet);
+        }
+        for (Circle orbit : orbits) {
+            world.getChildren().add(orbit); // Add orbit lines
         }
 
         Scene scene = new Scene(world, width, height, true);

@@ -4,7 +4,7 @@
 
 Simple Solar System Simulator
 
-
+https://github.com/user-attachments/assets/31b62c52-2e32-4ae2-b442-a8635e5e87ba
 
 ### Instructor Contact Information:
 - **Eric Buhot**  

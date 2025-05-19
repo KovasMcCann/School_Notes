@@ -92,7 +92,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) {
         //random number from 35 to 20
-        Sphere sun = new Sphere(Math.random() * 15 + 20);
+        Sphere sun = new Sphere(Math.random() * 15 + 15);
         sun.setTranslateX(width / 2);
         sun.setTranslateY(height / 2);
         sun.setTranslateZ(0);

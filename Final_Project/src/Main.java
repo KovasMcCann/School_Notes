@@ -17,6 +17,8 @@ import javafx.animation.PathTransition;
 import javafx.scene.shape.Circle;
 import javafx.util.Duration;
 
+import java.lang.Math;
+
 /*
  * planets
  * Mercury Gray
@@ -89,7 +91,8 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) {
-        Sphere sun = new Sphere(25);
+        //random number from 35 to 20
+        Sphere sun = new Sphere(Math.random() * 15 + 20);
         sun.setTranslateX(width / 2);
         sun.setTranslateY(height / 2);
         sun.setTranslateZ(0);
